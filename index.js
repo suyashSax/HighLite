@@ -56,7 +56,7 @@ function matcher(a, b){
 }
 
 app.get('/applause', (req,res) => {
-    fs.readFile("test3.txt", function (err, data) {
+    fs.readFile("test.txt", function (err, data) {
         if (err) throw err;
         let input = data.toString();
         var sentences = []
@@ -99,7 +99,7 @@ app.get('/applause', (req,res) => {
 })
 
 app.get('/', (req, res) => {
-    fs.readFile("test3.txt", function (err, data) {
+    fs.readFile("test.txt", function (err, data) {
         if (err) throw err;
         let input = data.toString();
         var sentences = []
@@ -219,7 +219,7 @@ function average(data){
   for(var cluster in data){
       var sentence = data[cluster];
       var senti = sentence.score;
-      if(senti + 0.05 > 0 && sentence.magnitude > 1.5){
+      if(senti - 0.05 > 0 && sentence.magnitude > 2){
           if(senti > meanP){
             positive.push(sentence);
           }
