@@ -1,0 +1,4479 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:24.500 --> 00:00:26.730
+(Drum
+
+00:00:26.730 --> 00:00:28.960
+roll)
+
+00:00:28.960 --> 00:00:40.140
+Hi Doug, how can I
+
+00:00:40.140 --> 00:00:44.610
+help?
+(Applause).
+
+00:00:44.610 --> 00:00:48.690
+Thank you for being here. We
+are being joined by many people
+
+00:00:48.690 --> 00:00:51.270
+at global launch events around
+the world so welcome to all of
+
+00:00:51.270 --> 00:00:55.040
+them as well. We also have a
+Live Stream so I lot of folks
+
+00:00:55.040 --> 00:00:58.860
+are joining on the Live Stream
+including Dinesh, I'm told. So
+
+00:00:58.860 --> 00:01:04.030
+welcome everyone. This space
+used to be a power station for
+
+00:01:04.030 --> 00:01:07.300
+a chocolate factory in the
+1900's. So we have transformed
+
+00:01:07.300 --> 00:01:11.470
+it pretty well, but I'm glad we
+have a historic setting as we
+
+00:01:11.470 --> 00:01:16.030
+talk about what we are building
+for the future. At I/O earlier
+
+00:01:16.030 --> 00:01:18.580
+this year, we talk the about
+our vision for that
+
+00:01:18.580 --> 00:01:21.710
+future. We
+are at a seminal moment in
+
+00:01:21.710 --> 00:01:25.740
+computing. If you step back
+and think about it, computing
+
+00:01:25.740 --> 00:01:28.930
+has had big shifts every ten
+years
+
+00:01:28.930 --> 00:01:38.070
+or so. It all started in
+the 80s. It was the first
+
+00:01:38.070 --> 00:01:41.030
+time computing touched the
+lives of many people and
+
+00:01:41.030 --> 00:01:45.720
+revolutionized the way they
+work. Roughly a decade later,
+
+00:01:45.720 --> 00:01:49.710
+in the mid 90s, the Web
+arrived. It is arguably the
+
+00:01:49.710 --> 00:01:53.401
+biggest platform shift we have
+seen in our lifetimes. It
+
+00:01:53.401 --> 00:01:57.570
+brought the Internet to many
+more people, radically changed
+
+00:01:57.570 --> 00:02:00.290
+industries. Fund
+Fundamentally changes few
+
+00:02:00.290 --> 00:02:01.500
+people interjackets and connect
+
+00:02:01.500 --> 00:02:07.670
+with each other. In the mid
+2000s with the advent of
+
+00:02:07.670 --> 00:02:12.730
+smartphone we had the mobile
+revolution. That brought
+
+00:02:12.730 --> 00:02:15.910
+computing to probably now
+around half the world's
+
+00:02:15.910 --> 00:02:19.340
+population. And it's
+profoundly changing people's
+
+00:02:19.340 --> 00:02:24.750
+lives. The shift continues.
+When I look ahead at where
+
+00:02:24.750 --> 00:02:28.350
+computing is headed. It's
+clear to me that we are
+
+00:02:28.350 --> 00:02:33.270
+evolving from a mobile first to
+an AI first world. What do I
+
+00:02:33.270 --> 00:02:37.370
+mean by that? In this world,
+computing will be universally
+
+00:02:37.370 --> 00:02:44.120
+available. It will be there
+everywhere in the context of a
+
+00:02:44.120 --> 00:02:46.900
+be able to interact with
+everybody naturally and s
+
+00:02:46.900 --> 00:02:51.470
+eamlessly than ever before.
+And above all else, it will be
+
+00:02:51.470 --> 00:02:57.090
+intelligent. It will help
+users in more meaningful ways.
+
+00:02:57.090 --> 00:03:00.260
+At Google, we are very, very
+excited about the shift and we
+
+00:03:00.260 --> 00:03:04.620
+have been working for a long
+time towards this shift. At
+
+00:03:04.620 --> 00:03:09.069
+the heart of these efforts is
+our goal to build a Google
+
+00:03:09.069 --> 00:03:16.120
+Assistant. We spoke about the
+
+00:03:16.120 --> 00:03:23.489
+the asissant the
+Google IO this
+
+00:03:23.489 --> 00:03:29.879
+year. The asis stant will be
+universal, it will be available
+
+00:03:29.879 --> 00:03:35.520
+when the users need it to help
+them. And our goal is to build
+
+00:03:35.520 --> 00:03:40.190
+a personal Google for each and
+every user. Just like we bhilt
+
+00:03:40.190 --> 00:03:43.900
+a Google -- built a Google for
+everyone, we want to build each
+
+00:03:43.900 --> 00:03:48.550
+user his or her own individual
+Google. To capture our vision
+
+00:03:48.550 --> 00:03:51.510
+for what the Google Assistant
+is. We put together a short
+
+00:03:51.510 --> 00:03:57.260
+video. Let's take a look.
+When we started, we made this
+
+00:03:57.260 --> 00:04:00.569
+for everyone so that everyone
+could find everything they need
+
+00:04:00.569 --> 00:04:05.239
+among the millions of things in
+the world. Today it seems
+
+00:04:05.239 --> 00:04:07.860
+like sometimes it's easy to
+feel like you need a little
+
+00:04:07.860 --> 00:04:11.780
+help with the stuff just in
+your own world, photos, phone,
+
+00:04:11.780 --> 00:04:16.060
+videos, calendars, friends,
+trips, reservations, so on, so
+
+00:04:16.060 --> 00:04:18.500
+on. Wouldn't it be nice if you
+
+00:04:18.500 --> 00:04:25.690
+had help with that? That's why
+we are building the Google
+
+00:04:25.690 --> 00:04:29.040
+Assistant. Hi, Amy, how can I
+help? You ask it what you n
+
+00:04:29.040 --> 00:04:33.060
+eed. Okay, Google, what do I
+have to do today? And your
+
+00:04:33.060 --> 00:04:35.940
+assistant understands and helps
+you out. You can carry on a
+
+00:04:35.940 --> 00:04:39.190
+conversation how long will it
+take to get to downtown Chicago
+
+00:04:39.190 --> 00:04:45.169
+from home. What restaurants
+are there. Book a table at C
+
+00:04:45.169 --> 00:04:48.960
+ortino restaurant. And the
+assistant is there for you, so
+
+00:04:48.960 --> 00:04:51.500
+if you are on the road you can
+ask it where to fill up. And
+
+00:04:51.500 --> 00:04:55.410
+if you are at home you can ask
+it to play music or if you are
+
+00:04:55.410 --> 00:04:58.460
+in a chat with a friend, it can
+show you what is playing
+
+00:04:58.460 --> 00:05:02.090
+tonight. It's your own
+personal Google. Naturally
+
+00:05:02.090 --> 00:05:05.651
+anything you share with it is
+safe and secure. The more you
+
+00:05:05.651 --> 00:05:09.390
+use your Google Assistant, the
+more useful it becomes.
+
+00:05:09.390 --> 00:05:11.690
+Remember my bike come combo is
+326.
+
+00:05:11.690 --> 00:05:21.840
+Got it? Soon you will be able
+to access it. Today we are
+
+00:05:21.840 --> 00:05:25.691
+making this just for you.
+Hi, how can I help? Meet your
+
+00:05:25.691 --> 00:05:32.090
+Google Assistant.
+
+00:05:32.090 --> 00:05:36.310
+early vision for how we want to
+build the Google assistant. We
+
+00:05:36.310 --> 00:05:38.800
+are just getting started
+3R50EU7B but in many ways we
+
+00:05:38.800 --> 00:05:42.060
+have been working hard at this
+problem ever since Google was
+
+00:05:42.060 --> 00:05:46.300
+founded 18 years ago. We have
+invested in deep areas of
+
+00:05:46.300 --> 00:05:52.150
+computer science. Today our
+Knowledge Graph has more than
+
+00:05:52.150 --> 00:05:57.211
+70 billion facts about people,
+places and things and we can
+
+00:05:57.211 --> 00:06:00.120
+answer questions based on that.
+
+00:06:00.120 --> 00:06:02.190
+Our natural language processing
+
+00:06:02.190 --> 00:06:06.050
+is what helps us make Google
+truly conversational with our
+
+00:06:06.050 --> 00:06:11.710
+users. And we have built state
+of the art machine translation,
+
+00:06:11.710 --> 00:06:15.580
+image recognition and voice
+recognition systems. And each
+
+00:06:15.580 --> 00:06:19.381
+of these areas is being turbo
+charged by the progress we are
+
+00:06:19.381 --> 00:06:24.360
+seeing with Machine Learning
+and AI. A few months ago, we
+
+00:06:24.360 --> 00:06:28.240
+captured the world's attention
+when Deep Minds Alpha Go won
+
+00:06:28.240 --> 00:06:35.730
+the world championship. It
+showed the external world a
+
+00:06:35.730 --> 00:06:40.120
+moment for AI has arrived but
+for us, the progress has been
+
+00:06:40.120 --> 00:06:45.120
+con continuous and the strides
+are huge. In fact, in the
+
+00:06:45.120 --> 00:06:48.800
+three months since Alpha Go
+played that game, we have had
+
+00:06:48.800 --> 00:06:52.630
+meaningful launches and how
+Machine Learning is impacting
+
+00:06:52.630 --> 00:06:57.560
+the products we build. Let me
+talk about three examples, all
+
+00:06:57.560 --> 00:07:00.490
+of which we have talked about
+in the past three months since
+
+00:07:00.490 --> 00:07:05.251
+the Alpha Go moment. First,
+image captioning. Image
+
+00:07:05.251 --> 00:07:09.040
+captioning is now computers try
+to make sense of images they
+
+00:07:09.040 --> 00:07:13.330
+look at. We first launched our
+Machine Learning system in
+
+00:07:13.330 --> 00:07:17.610
+2014. It was state of the art
+system and our quality was
+
+00:07:17.610 --> 00:07:23.099
+around just over 89%. Our
+newer Machine Learning systems
+
+00:07:23.099 --> 00:07:29.110
+now, the quality is close to
+94%. 4% may not seem like much
+
+00:07:29.110 --> 00:07:33.620
+to you, but first, it's really
+hard to increase quality at
+
+00:07:33.620 --> 00:07:37.650
+these levels because we are
+trying to approach human level
+
+00:07:37.650 --> 00:07:42.199
+accuracy. And, second, every
+single percentage point
+
+00:07:42.199 --> 00:07:45.400
+translates into meaningful
+difference for our users. So,
+
+00:07:45.400 --> 00:07:48.800
+for example, if you take a look
+at the picture behind me, about
+
+00:07:48.800 --> 00:07:51.490
+two years ago, we used to
+understand this picture as a
+
+00:07:51.490 --> 00:07:53.800
+train is sitting on the tracks.
+
+00:07:53.800 --> 00:07:58.680
+Now, we understand the colors
+so we describe is as a blue and
+
+00:07:58.680 --> 00:08:02.639
+yellow train is traveling down
+the tracks. Or if you look at
+
+00:08:02.639 --> 00:08:06.521
+this picture, two years ago we
+understood it as a brown bear
+
+00:08:06.521 --> 00:08:10.790
+is swimming in the water. Now,
+we can count, the computing
+
+00:08:10.790 --> 00:08:14.849
+systems can count, so we
+understand this is two brown
+
+00:08:14.849 --> 00:08:18.979
+bears sitting on top of rocks.
+Advances like this is what h
+
+00:08:18.979 --> 00:08:22.389
+elps us when you are in Google
+Photos find the exact pictures
+
+00:08:22.389 --> 00:08:26.849
+you are looking for and be a
+better assistant to you.
+
+00:08:26.849 --> 00:08:30.170
+Another example, machine
+translation. We have been d
+
+00:08:30.170 --> 00:08:34.089
+oing machine translation for a
+while. And historically our
+
+00:08:34.089 --> 00:08:38.600
+systems are statistics based
+and we translate at a phrase by
+
+00:08:38.600 --> 00:08:43.120
+phrase level. So we translate
+individual phrases and combine
+
+00:08:43.120 --> 00:08:46.520
+them to form translation. If
+you look at this Chinese to
+
+00:08:46.520 --> 00:08:50.010
+English translation, you can
+see it makes sense, but it's
+
+00:08:50.010 --> 00:08:54.890
+not quite the way humans would
+translate it. Just recently we
+
+00:08:54.890 --> 00:08:58.540
+announced our first end-to-end
+self-learning, deep learning
+
+00:08:58.540 --> 00:09:02.410
+machine translation systems.
+Rather than working at phrase
+
+00:09:02.410 --> 00:09:06.890
+level, they take entire
+sentences and model sentences
+
+00:09:06.890 --> 00:09:10.640
+as outputs. That's what you
+see in the middle and you can
+
+00:09:10.640 --> 00:09:15.040
+see it as approaching human
+level translation. You can
+
+00:09:15.040 --> 00:09:18.070
+look at this quantitatively,
+and we have a beta to measure
+
+00:09:18.070 --> 00:09:21.000
+these things quantitatively, if
+you look at this previous
+
+00:09:21.000 --> 00:09:25.000
+phrase based system it was
+quite far from the human system
+
+00:09:25.000 --> 00:09:29.520
+and we closed a significant gap
+with our new Machine Learning
+
+00:09:29.520 --> 00:09:34.000
+systems. In fact, the progress
+for Chinese to English is so
+
+00:09:34.000 --> 00:09:37.100
+significant, last week we r
+olled it out in production and
+
+00:09:37.100 --> 00:09:40.620
+so today if you pick the Google
+translate mobile app and try
+
+00:09:40.620 --> 00:09:44.000
+faux translate from Chinese to
+English, you are using our
+
+00:09:44.000 --> 00:09:47.980
+newer Machine Learning systems
+and the progress has been
+
+00:09:47.980 --> 00:09:50.550
+amazing. We literally
+translated billions of queries
+
+00:09:50.550 --> 00:09:54.740
+over the coming year. This is
+what will help us if a user in
+
+00:09:54.740 --> 00:10:00.130
+Indonesia is ew using Google
+Assistant, even if it doesn't
+
+00:10:00.130 --> 00:10:04.130
+exist in their local language,
+translate it on the fly and get
+
+00:10:04.130 --> 00:10:10.080
+it to them. Another example,
+text to speech, text to speech
+
+00:10:10.080 --> 00:10:13.820
+is what we call when computers
+read something aloud back to
+
+00:10:13.820 --> 00:10:19.740
+you. So when you ask Google a
+question. Who is the Prime
+
+00:10:19.740 --> 00:10:23.740
+Minister of Canada? We
+understand the text and try to
+
+00:10:23.740 --> 00:10:25.820
+make it as natural as possible
+for
+
+00:10:25.820 --> 00:10:35.070
+you. So the way we do
+today we get a speaker into our
+
+00:10:35.070 --> 00:10:39.600
+recording studios, we record
+them for thousands of hours.
+
+00:10:39.600 --> 00:10:44.160
+We make them say short phrases
+and then combine them to be as
+
+00:10:44.160 --> 00:10:48.200
+natural sounding as possible.
+Again, deep learning is showing
+
+00:10:48.200 --> 00:10:52.000
+the way. Deep Mind just
+published a paper with a new
+
+00:10:52.000 --> 00:10:55.600
+technology called Wavenet.
+It's a deep learning model
+
+00:10:55.600 --> 00:10:59.200
+where rather than modeling
+phrases they actually model the
+
+00:10:59.200 --> 00:11:02.430
+underlying raw audio waves to
+generate a much more natural
+
+00:11:02.430 --> 00:11:06.980
+sound. You can again see
+Wavenet model is getting much
+
+00:11:06.980 --> 00:11:10.920
+closer to human speech. To me
+the reason this gets exciting
+
+00:11:10.920 --> 00:11:14.640
+is today all we can do is a
+single voice for the the
+
+00:11:14.640 --> 00:11:20.140
+assistant for all context.
+Doing this is what will enable
+
+00:11:20.140 --> 00:11:27.240
+us to have multiple voices,
+multiple personalities, get the
+
+00:11:27.240 --> 00:11:31.970
+between German and Swiss German
+and capture emotions when
+
+00:11:31.970 --> 00:11:36.570
+speaking to you. This is key
+to our vision for building an
+
+00:11:36.570 --> 00:11:41.760
+individual Google for each u
+ser, and more importantly, the
+
+00:11:41.760 --> 00:11:45.170
+assistant will continuously get
+better as we make progress with
+
+00:11:45.170 --> 00:11:46.170
+Machine Learning and
+
+00:11:46.170 --> 00:11:50.040
+AI. It is
+early days but we have
+
+00:11:50.040 --> 00:11:53.860
+committed to this vision and we
+are going to work on it for a
+
+00:11:53.860 --> 00:11:57.980
+long time. It's equally
+important to get the assistant
+
+00:11:57.980 --> 00:12:02.320
+in the hands of our users. And
+that's what today is before.
+
+00:12:02.320 --> 00:12:06.130
+In fact, we started doing it
+about two weeks ago with our
+
+00:12:06.130 --> 00:12:10.300
+new messaging app, Google Allo
+in which they can invoke the
+
+00:12:10.300 --> 00:12:16.860
+Google in conversations. The
+early reception has been great.
+
+00:12:16.860 --> 00:12:22.050
+very naturally, asking us
+questions we expected like tell
+
+00:12:22.050 --> 00:12:26.070
+me a joke, but also questions
+we didn't expect like what is
+
+00:12:26.070 --> 00:12:30.089
+the meaning of life. So it's
+Orlandoly days, but the
+
+00:12:30.089 --> 00:12:33.350
+assistant continuously learns
+from this experience and keeps
+
+00:12:33.350 --> 00:12:37.560
+getting better. If you
+remember the our vision for
+
+00:12:37.560 --> 00:12:41.600
+Google Assistant is to be
+universal, to be everywhere the
+
+00:12:41.600 --> 00:12:45.600
+user need it's to be, which is
+why today we are going to bring
+
+00:12:45.600 --> 00:12:49.720
+the assistant to two more
+surfaces, one in the context of
+
+00:12:49.720 --> 00:12:53.660
+the phone which you always
+carry with you, and one in the
+
+00:12:53.660 --> 00:12:58.220
+context of your home. To talk
+about the Google Assistant in
+
+00:12:58.220 --> 00:13:02.730
+new hardware products, let me
+invite Rick, the head of the
+
+00:13:02.730 --> 00:13:10.240
+newly formed harmware group.
+(Applause).
+
+00:13:10.240 --> 00:13:19.130
+an honor to be here ted
+representing the hard work of
+
+00:13:19.130 --> 00:13:20.640
+so many of my colleagues.
+
+00:13:20.640 --> 00:13:24.839
+I've
+been doing hardware for a
+
+00:13:24.839 --> 00:13:29.610
+smile like a kid every time I
+unbox a new gadget.
+
+00:13:29.610 --> 00:13:31.089
+Since I
+joined Google, one of the
+
+00:13:31.089 --> 00:13:34.470
+questions I get asked the most
+is why should we build
+
+00:13:34.470 --> 00:13:37.510
+hardware?
+We often joke that building
+
+00:13:37.510 --> 00:13:40.040
+hardware is, well, hard.
+
+00:13:40.040 --> 00:13:43.290
+But
+people have strong, emotional
+
+00:13:43.290 --> 00:13:44.850
+connections to the products
+they
+
+00:13:44.850 --> 00:13:48.149
+rely on everyday. They are an
+important part of our users'
+
+00:13:48.149 --> 00:13:49.149
+lives.
+
+00:13:49.149 --> 00:13:51.019
+B u t
+the rise of volume and
+
+00:13:51.019 --> 00:13:56.220
+complexity of all of the
+information makes it so that
+
+00:13:56.220 --> 00:13:59.850
+this is the right time to be
+focused on hardware and
+
+00:13:59.850 --> 00:14:01.660
+Let's
+think about that for asoftware.
+
+00:14:01.660 --> 00:14:03.790
+Let's think about that for a
+moment.
+
+00:14:03.790 --> 00:14:06.589
+At the peak of film
+photography,
+
+00:14:06.589 --> 00:14:11.710
+80B photos were captured
+annually. Last year alone,
+
+00:14:11.710 --> 00:14:13.510
+thanks to smartphones,
+
+00:14:13.510 --> 00:14:19.740
+One trillion photos were taken.
+
+00:14:19.740 --> 00:14:24.160
+similarly complex. 328 billion
+items were delivered by the
+
+00:14:24.160 --> 00:14:30.339
+post office last year. That's
+compared to 50 trillion emails
+
+00:14:30.339 --> 00:14:31.339
+and mobile
+
+00:14:31.339 --> 00:14:35.230
+messages and today
+people want more than a
+
+00:14:35.230 --> 00:14:38.450
+thousand songs in their pocket.
+
+00:14:38.450 --> 00:14:42.820
+What they want is the entire
+world's music collection with
+
+00:14:42.820 --> 00:14:46.839
+them at all times. These
+informational changes mean the
+
+00:14:46.839 --> 00:14:52.250
+technology needs to be smart,
+and just work for you. This is
+
+00:14:52.250 --> 00:14:55.380
+why we believe the next big
+innovation is going to take
+
+00:14:55.380 --> 00:14:59.830
+place at the intersection of
+hardware and software with AI
+
+00:14:59.830 --> 00:15:03.890
+at the center. That's where we
+have the biggest opportunity to
+
+00:15:03.890 --> 00:15:07.860
+bring people the very best of
+Google as we intended it.
+
+00:15:07.860 --> 00:15:11.330
+Building hardware and software
+together let's us take full
+
+00:15:11.330 --> 00:15:15.760
+advantage of capabilities like
+the Google asis apt --
+
+00:15:15.760 --> 00:15:20.110
+assistant. It lets us harness
+years of expertise we have
+
+00:15:20.110 --> 00:15:25.050
+built up in Machine Learning
+and AI to deliver the simple,
+
+00:15:25.050 --> 00:15:30.161
+smart and fast experiences that
+our users expect from us. It
+
+00:15:30.161 --> 00:15:32.940
+allows Google to be helpful to
+people no matter where they
+
+00:15:32.940 --> 00:15:38.561
+need us no matter what the
+context or form factor. As you
+
+00:15:38.561 --> 00:15:41.970
+will see today, we are building
+hardware with the Google
+
+00:15:41.970 --> 00:15:45.220
+assistant at its core so you
+can get things done without
+
+00:15:45.220 --> 00:15:49.170
+worrying about the underlying
+technology. Our devices just
+
+00:15:49.170 --> 00:15:53.210
+work for you, whether you are
+at home, with family, commuting
+
+00:15:53.210 --> 00:15:57.680
+to work, out for a jog or
+spending time with friends.
+
+00:15:57.680 --> 00:16:01.500
+This is something that Google
+has always stood for. Hardware
+
+00:16:01.500 --> 00:16:05.509
+isn't a new area for Google,
+but now we are taking steps to
+
+00:16:05.509 --> 00:16:08.670
+showcase the very best of
+Google Google across a family
+
+00:16:08.670 --> 00:16:13.339
+of devices designed and built
+by us. This is a natural step
+
+00:16:13.339 --> 00:16:16.990
+and we are in it for the long
+run. You are going to hear
+
+00:16:16.990 --> 00:16:19.790
+much more from our team in the
+coming months and years to
+
+00:16:19.790 --> 00:16:21.560
+come, and we have lots in store
+
+00:16:21.560 --> 00:16:27.470
+for you today. So let's get
+started, first with
+
+00:16:27.470 --> 00:16:32.650
+phones.
+Phones are the most important
+
+00:16:32.650 --> 00:16:37.170
+device we own. They rarely
+leave our side. They are
+
+00:16:37.170 --> 00:16:44.370
+literally most people's
+lifeline to the Internet and to
+
+00:16:44.370 --> 00:16:49.280
+excited to introduce you to a
+new phone made by Google. We
+
+00:16:49.280 --> 00:16:55.450
+call it Pixel.
+(
+
+00:16:55.450 --> 00:17:02.440
+Applause).
+For those of you who followed
+
+00:17:02.440 --> 00:17:06.500
+Google for a while, that name
+might sound familiar to you.
+
+00:17:06.500 --> 00:17:12.139
+For us, it's always represented
+the best hardware and software
+
+00:17:12.139 --> 00:17:16.400
+designed and built by Google.
+Let me tell you a little bit
+
+00:17:16.400 --> 00:17:18.720
+more about
+
+00:17:18.720 --> 00:17:19.960
+We designed
+everything aboutPixel.
+
+00:17:19.960 --> 00:17:24.130
+Pixel, from the industrial
+design to the user experience.
+
+00:17:24.130 --> 00:17:25.280
+Everything is simple and easy
+to
+
+00:17:25.280 --> 00:17:29.730
+use -- something Google has
+always stood for. I really love
+
+00:17:29.730 --> 00:17:33.540
+how this phone looks and feels.
+
+00:17:33.540 --> 00:17:36.760
+iconic element that gives Pixel
+
+00:17:36.760 --> 00:17:41.140
+personality and character. The
+polished aluminum case gives
+
+00:17:41.140 --> 00:17:43.260
+the
+phone a distinct look, and
+
+00:17:43.260 --> 00:17:46.419
+there's a subtle wedge from the
+top to the bottom that keeps it
+
+00:17:46.419 --> 00:17:50.160
+thin where your hand most
+naturally grips it.
+
+00:17:50.160 --> 00:17:55.660
+And there's
+no unsightly camera bump.
+
+00:17:55.660 --> 00:17:57.679
+And
+while Pixel is beautiful, what
+
+00:17:57.679 --> 00:18:01.120
+really makes it come to life is
+how the hardware and software
+
+00:18:01.120 --> 00:18:03.160
+work together.
+
+00:18:03.160 --> 00:18:06.220
+It's the perfect
+example of the best of Google
+
+00:18:06.220 --> 00:18:14.150
+smarts with a simple user
+experience.
+
+00:18:14.150 --> 00:18:15.870
+you about 5 things
+
+00:18:15.870 --> 00:18:20.250
+F irst, we're
+excited to announce that Pixel
+
+00:18:20.250 --> 00:18:23.860
+is the first phone with the
+Google Google Assistant built
+
+00:18:23.860 --> 00:18:30.970
+in. Second, is pixel's
+terrific photography
+
+00:18:30.970 --> 00:18:36.740
+experience. Third, is how we
+use Google Cloud so you never
+
+00:18:36.740 --> 00:18:42.720
+run out of space for those
+great photos. Fourth, is how
+
+00:18:42.720 --> 00:18:45.880
+we let people talk to each
+other much more easily no
+
+00:18:45.880 --> 00:18:51.410
+matter what operating system or
+device they use. And finally,
+
+00:18:51.410 --> 00:18:57.370
+is now Pixel is made for mobile
+Virtual Reality. To tell you
+
+00:18:57.370 --> 00:19:01.220
+more about Pixel, I'd like to
+invite my colleague, Brian, to
+
+00:19:01.220 --> 00:19:02.220
+the
+
+00:19:02.220 --> 00:19:04.940
+stage.
+(
+
+00:19:04.940 --> 00:19:13.020
+Applause).
+Hi, I'm Brian, I lead the
+
+00:19:13.020 --> 00:19:15.549
+software product management
+team There have been so many
+
+00:19:15.549 --> 00:19:16.549
+people
+forePixel.
+
+00:19:16.549 --> 00:19:17.549
+There have been so many people
+
+00:19:17.549 --> 00:19:19.559
+who worked so hard on this, so
+I
+
+00:19:19.559 --> 00:19:20.559
+feel lucky to be the one to
+show
+
+00:19:20.559 --> 00:19:23.240
+you what we've built.
+
+00:19:23.240 --> 00:19:25.900
+This phone
+was designed inside and out to
+
+00:19:25.900 --> 00:19:28.419
+be simple and smart, and I
+think
+
+00:19:28.419 --> 00:19:34.030
+you'll notice that right from
+the start with the homescreen.
+
+00:19:34.030 --> 00:19:37.960
+thing you'll see is the new
+Pixel launcher, with round
+
+00:19:37.960 --> 00:19:42.150
+icons, access to all your apps
+just a swipe away, and a clean,
+
+00:19:42.150 --> 00:19:43.770
+polished look.
+
+00:19:43.770 --> 00:19:47.710
+And like Rick
+said, Pixel is the first phone
+
+00:19:47.710 --> 00:19:51.350
+with the Google Assistant built
+in. Having the Assistant with
+
+00:19:51.350 --> 00:19:56.060
+you, all through your day makes
+so many tasks incredibly easy.
+
+00:19:56.060 --> 00:20:01.290
+hotword, and the Assistant
+jumps
+
+00:20:01.290 --> 00:20:06.200
+into action. Whether you're on
+your home screen or in any app,
+
+00:20:06.200 --> 00:20:09.280
+you can always ask your
+Assistant for information or
+
+00:20:09.280 --> 00:20:10.280
+for
+help with tasks.
+
+00:20:10.280 --> 00:20:14.380
+Let me show you
+how it works. Getting ready for
+
+00:20:14.380 --> 00:20:16.710
+today's
+launch, I've been spending a
+
+00:20:16.710 --> 00:20:18.520
+bit
+more time at the office than
+
+00:20:18.520 --> 00:20:22.010
+usual, so I'm looking to plan
+something with family. And fall
+
+00:20:22.010 --> 00:20:25.120
+is such a great time in the Bay
+Area, I can get some ideas for
+
+00:20:25.120 --> 00:20:26.640
+this weekend with a press of
+the
+
+00:20:26.640 --> 00:20:30.640
+home button and
+
+00:20:30.640 --> 00:20:33.250
+Show me my
+photos from last October.
+
+00:20:33.250 --> 00:20:39.740
+T a k e
+a look at these pictures from
+
+00:20:39.740 --> 00:20:41.710
+command my assistant found just
+
+00:20:41.710 --> 00:20:44.831
+the right picks from my Google
+Photos collection, and it
+
+00:20:44.831 --> 00:20:47.830
+doesn't just work for dates,
+you can sure itch for people,
+
+00:20:47.830 --> 00:20:48.830
+places and things
+
+00:20:48.830 --> 00:20:50.730
+That concert
+at the Greektoo.
+
+00:20:50.730 --> 00:20:54.770
+That concert at the Greek
+Theatre was great. Let's see
+
+00:20:54.770 --> 00:20:56.880
+what shows are coming up.
+
+00:20:56.880 --> 00:20:59.580
+"Show
+me upcoming events at the Greek
+
+00:20:59.580 --> 00:21:00.580
+Theater in Berkeley"
+
+00:21:00.580 --> 00:21:07.990
+C h a n ce
+the rapper and Lauren
+
+00:21:07.990 --> 00:21:12.789
+Let's
+talk about what justhill.
+
+00:21:12.789 --> 00:21:17.809
+Let's talk about what just
+happened there. Not only did my
+
+00:21:17.809 --> 00:21:19.500
+I
+asked about, it was able to
+
+00:21:19.500 --> 00:21:21.860
+serve up really useful
+information thanks to Google's
+
+00:21:21.860 --> 00:21:23.400
+Knowledge Graph.
+
+00:21:23.400 --> 00:21:26.210
+Ok, looks like
+the Lumineers are playing. I
+
+00:21:26.210 --> 00:21:28.590
+like their music, but I haven't
+heard
+
+00:21:28.590 --> 00:21:32.520
+their latest stuff. "Play me a
+song by the Lumineers"
+
+00:21:32.520 --> 00:21:36.909
+P l a y
+ing
+
+00:21:36.909 --> 00:21:38.171
+The Assistant knows I like to
+music.
+
+00:21:38.171 --> 00:21:39.870
+The Assistant knows I like to
+listen to music on YouTube, so
+
+00:21:39.870 --> 00:21:44.000
+that's the app it opens.
+
+00:21:44.000 --> 00:21:45.000
+(
+
+00:21:45.000 --> 00:21:52.679
+Yup,
+this seems like it wouldM usic)
+
+00:21:52.679 --> 00:21:59.030
+Yup, this seems like it would
+be a fun concert. Let's see if
+
+00:21:59.030 --> 00:22:00.030
+my wife will even
+
+00:22:00.030 --> 00:22:04.280
+r emembers who
+I am after being three weeks of
+
+00:22:04.280 --> 00:22:12.451
+Lisa. Sure what's
+the message. Want to go see
+
+00:22:12.451 --> 00:22:17.840
+the Lumineers in Berkeley on
+Friday? Got it. Do you want
+
+00:22:17.840 --> 00:22:26.070
+to send it or change it? Send
+it. Okay. Message
+
+00:22:26.070 --> 00:22:27.070
+Now I just
+sent that messagesent.
+
+00:22:27.070 --> 00:22:28.750
+Now I just sent that message
+as an SMS, but the Assistant
+
+00:22:28.750 --> 00:22:29.970
+also works with other messaging
+
+00:22:29.970 --> 00:22:31.760
+apps like Whatsapp and Viber.
+Or
+
+00:22:31.760 --> 00:22:33.241
+I could have asked the
+Assistant
+
+00:22:33.241 --> 00:22:37.850
+to call Lisa instead. I t l
+ooks like she responded.
+
+00:22:37.850 --> 00:22:40.720
+Thankfully she wants to go and
+she is recommending we get
+
+00:22:40.720 --> 00:22:44.520
+dinner at Marzano first. I
+haven't been there before so
+
+00:22:44.520 --> 00:22:48.919
+let's try to get more info.
+Now, watch this. The assistant
+
+00:22:48.919 --> 00:22:52.770
+can also help get information
+based on what's on my screen.
+
+00:22:52.770 --> 00:22:56.809
+So I will do the same long
+press gesture on home and swipe
+
+00:22:56.809 --> 00:23:04.380
+get contextually relevant
+information. Here is what just
+
+00:23:04.380 --> 00:23:06.720
+happened the assistant
+recognized the restaurant in
+
+00:23:06.720 --> 00:23:09.179
+Lisa's text mess annual and
+assembled this useful
+
+00:23:09.179 --> 00:23:12.620
+information into a single card
+from the apps I have installed
+
+00:23:12.620 --> 00:23:17.260
+on the phone. I didn't have to
+say or type a single word.
+
+00:23:17.260 --> 00:23:19.470
+Let's get more information from
+Google Maps.
+
+00:23:19.470 --> 00:23:23.059
+There is the location. You can
+
+00:23:23.059 --> 00:23:29.370
+wipe up, check out p ictures.
+Okay. It looks pretty good.
+
+00:23:29.370 --> 00:23:33.780
+Let's see if it's close enough
+to the concert. How far is it
+
+00:23:33.780 --> 00:23:34.780
+from the Greek Theatre in
+
+00:23:34.780 --> 00:23:40.600
+Berkeley? If you drive Marzano
+
+00:23:40.600 --> 00:23:43.960
+is 6.4 miles away from the
+Greek Again, the Assistant
+
+00:23:43.960 --> 00:23:44.960
+understood
+Theatre.
+
+00:23:44.960 --> 00:23:46.340
+Again, the Assistant understood
+
+00:23:46.340 --> 00:23:50.530
+the context of my screen to
+answer my question. A quick
+
+00:23:50.530 --> 00:23:52.241
+drive, that will totally work.
+Let's get reservations.
+
+00:23:52.241 --> 00:23:56.580
+M a k e
+a reservation at Marzano for
+
+00:23:56.580 --> 00:24:01.919
+Friday. Sure, let's make a
+reservation at Marzano with
+
+00:24:01.919 --> 00:24:07.980
+open table. How many people in
+your party. Two people. And
+
+00:24:07.980 --> 00:24:10.641
+what time do you want to
+reserve? 6:00 p.
+
+00:24:10.641 --> 00:24:16.370
+m. Okay. I
+have completed the reservation,
+
+00:24:16.370 --> 00:24:19.779
+so you are all set. Look for
+an email confirmation from open
+
+00:24:19.779 --> 00:24:21.279
+table with all of the
+
+00:24:21.279 --> 00:24:23.270
+details. (
+Cheers and applause) So that's
+
+00:24:23.270 --> 00:24:24.270
+just a glimpse how.
+So that's just a glimpse how
+
+00:24:24.270 --> 00:24:30.970
+the Google Assistant works. It
+
+00:24:30.970 --> 00:24:35.600
+can help with the big things
+like weekend plans, but it's
+
+00:24:35.600 --> 00:24:36.750
+also great for all the small
+things throughout your day,
+
+00:24:36.750 --> 00:24:38.660
+like
+getting around, finding
+
+00:24:38.660 --> 00:24:40.830
+information right in the
+moment,
+
+00:24:40.830 --> 00:24:42.770
+setting reminders for yourself
+and much more.
+
+00:24:42.770 --> 00:24:45.950
+T h e a s s i s t
+ant is incredibly useful when
+
+00:24:45.950 --> 00:24:48.049
+its built right into your phone
+
+00:24:48.049 --> 00:24:50.100
+and I will show you how it
+works in other contexts later
+
+00:24:50.100 --> 00:24:54.900
+too. The Google Assistant on
+Pixel is a great example of how
+
+00:24:54.900 --> 00:25:02.991
+together beautifully. Another
+is the camera. There's
+
+00:25:02.991 --> 00:25:05.030
+actually an industry group DXLR
+
+00:25:05.030 --> 00:25:11.290
+that rates dSLR and mart phone
+cameras on the market. These
+
+00:25:11.290 --> 00:25:14.080
+guys are obsessed with cameras,
+
+00:25:14.080 --> 00:25:18.120
+lenses and image quality.
+We're proud to report that
+
+00:25:18.120 --> 00:25:22.210
+Pixel received a rating of 89.
+
+00:25:22.210 --> 00:25:27.200
+That's the highest rating ever
+for a smartphone.
+
+00:25:27.200 --> 00:25:28.200
+(
+
+00:25:28.200 --> 00:25:33.870
+Let me put that score into
+Applause).
+
+00:25:33.870 --> 00:25:36.870
+context.
+This isn't only the best camera
+
+00:25:36.870 --> 00:25:41.710
+the best smartphone camera
+anyone has ever made.
+
+00:25:41.710 --> 00:25:44.270
+So how did
+we achieve this? Our teams of
+
+00:25:44.270 --> 00:25:47.480
+photography gurus and image
+processing experts have spent
+
+00:25:47.480 --> 00:25:49.789
+the last year designing and
+tirelessly
+
+00:25:49.789 --> 00:25:57.059
+optimizing our entire camera
+stack.
+
+00:25:57.059 --> 00:26:03.429
+camera, featuring an f/2.0
+
+00:26:03.429 --> 00:26:04.789
+pixels to capture significantly
+
+00:26:04.789 --> 00:26:08.790
+more light than other cameras.
+
+00:26:08.790 --> 00:26:12.919
+excellent.
+Our amazing camera team has
+
+00:26:12.919 --> 00:26:15.700
+written some incredible
+on-device software algorithms
+
+00:26:15.700 --> 00:26:18.059
+that do things you can't do
+with
+
+00:26:18.059 --> 00:26:20.000
+great hardware alone.
+
+00:26:20.000 --> 00:26:22.900
+For instance:
+Smart Burst is a feature that
+
+00:26:22.900 --> 00:26:25.500
+lets you capture just the right
+moment.
+
+00:26:25.500 --> 00:26:27.669
+By holding down the shutter
+button, you can capture a
+
+00:26:27.669 --> 00:26:30.650
+continuous stream of pictures
+and let Google intelligence
+
+00:26:30.650 --> 00:26:34.240
+select the sharpest, clearest
+photo, of just the right
+
+00:26:34.240 --> 00:26:39.750
+moment.
+
+00:26:39.750 --> 00:26:44.000
+built to work in any light, so
+you get clear, vivid pictures
+
+00:26:44.000 --> 00:26:45.330
+even in challenging conditions.
+
+00:26:45.330 --> 00:26:48.540
+A l l
+the pictures you see here were
+
+00:26:48.540 --> 00:26:52.210
+use aPixel.
+Traditional cameras use a
+
+00:26:52.210 --> 00:26:56.409
+single long exposure in low
+light, but HDR Plus splits that
+
+00:26:56.409 --> 00:27:01.370
+exposures, aligning them
+algorithmically, and then
+
+00:27:01.370 --> 00:27:03.460
+combining each pixel.
+
+00:27:03.460 --> 00:27:05.950
+This
+technique reduces noise,
+
+00:27:05.950 --> 00:27:09.390
+minimizes blur, and gives you
+extended dynamic range, as in
+
+00:27:09.390 --> 00:27:11.320
+this example preserving both
+the
+
+00:27:11.320 --> 00:27:13.840
+dimly lit people in the
+foreground and the beautiful
+
+00:27:13.840 --> 00:27:16.050
+sunset behind them.
+
+00:27:16.050 --> 00:27:25.200
+HDR Plus
+clearly improves image quality.
+
+00:27:25.200 --> 00:27:27.400
+there is zero shutter lag. This
+
+00:27:27.400 --> 00:27:31.480
+is BIG deal, and it processes
+images twice as fast as before
+
+00:27:31.480 --> 00:27:37.460
+so you can keep shooting, rapid
+fire.
+
+00:27:37.460 --> 00:27:39.240
+great photos is the speed of
+the
+
+00:27:39.240 --> 00:27:41.230
+camera app.
+
+00:27:41.230 --> 00:27:43.470
+We know this is really
+important -- you don't want to
+
+00:27:43.470 --> 00:27:46.600
+miss the moment while your
+camera gets itself ready. And
+
+00:27:46.600 --> 00:27:48.460
+I'm really proud to say that
+our
+
+00:27:48.460 --> 00:27:52.460
+camera has a shorter capture
+time than any of the smartphone
+
+00:27:52.460 --> 00:27:55.419
+cameras we've tested!! Which
+makes action shots like this
+
+00:27:55.419 --> 00:27:58.169
+possible.
+
+00:27:58.169 --> 00:28:05.480
+feature, our incredible video
+stabilization.
+
+00:28:05.480 --> 00:28:09.600
+smooth even if you're not. Let
+me tell you how this video was
+
+00:28:09.600 --> 00:28:10.600
+captured. We mounted two
+
+00:28:10.600 --> 00:28:13.100
+C a m e
+ras side by side. Hit record
+
+00:28:13.100 --> 00:28:17.169
+on each and started walking.
+The one on the left has video
+
+00:28:17.169 --> 00:28:20.480
+stabilization turned off, the
+one on the right has it on.
+
+00:28:20.480 --> 00:28:23.909
+Just look at the This works by
+sampling thedifference!
+
+00:28:23.909 --> 00:28:27.090
+This works by sampling the
+gyroscope 200 times/second to
+
+00:28:27.090 --> 00:28:30.570
+figure out exactly how the
+camera is moving, even
+
+00:28:30.570 --> 00:28:33.049
+accounting for the rolling
+shutter and instantaneously
+
+00:28:33.049 --> 00:28:35.350
+compensating in each part of
+the
+
+00:28:35.350 --> 00:28:38.700
+image to avoid the "jello"
+effect you see with other forms
+
+00:28:38.700 --> 00:28:44.029
+stabilization.
+
+00:28:44.029 --> 00:28:47.980
+Google Photos built in. Once
+you've captured the moment with
+
+00:28:47.980 --> 00:28:52.010
+Pixel's powerful camera, Google
+Photos helps you store,
+
+00:28:52.010 --> 00:28:55.610
+organize, and share all your
+
+00:28:55.610 --> 00:29:00.140
+how goofy they may be. We think
+people are going to use this
+
+00:29:00.140 --> 00:29:04.750
+camera a lot. So as a special
+bonus for Pixel owners, we're
+
+00:29:04.750 --> 00:29:07.230
+including free unlimited
+storage
+
+00:29:07.230 --> 00:29:10.970
+for photos and videos, at
+original quality.
+
+00:29:10.970 --> 00:29:13.460
+That's all
+your photos and videos at full
+
+00:29:13.460 --> 00:29:17.110
+resolution
+including the rich 4K videos
+
+00:29:17.110 --> 00:29:19.370
+you
+can take with this phone. So,
+
+00:29:19.370 --> 00:29:21.299
+with Pixel, you'll never run
+out
+
+00:29:21.299 --> 00:29:26.580
+of space for your memories.( C
+heers and
+
+00:29:26.580 --> 00:29:27.580
+applause) And you can
+say goodbye to.
+
+00:29:27.580 --> 00:29:29.010
+And you can say goodbye to
+those painful "Storage Full"
+
+00:29:29.010 --> 00:29:32.570
+pop-ups.S o
+that was a quick intro to the
+
+00:29:32.570 --> 00:29:37.490
+Google Assistant on Pixel and
+our new best in class ramra
+
+00:29:37.490 --> 00:29:38.490
+integrated with Google
+
+00:29:38.490 --> 00:29:39.760
+Now I'd
+like to invite SabrinaPhotos.
+
+00:29:39.760 --> 00:29:41.010
+Now I'd like to invite Sabrina
+
+00:29:41.010 --> 00:29:43.929
+up to share some more great
+features of Pixel, but before
+
+00:29:43.929 --> 00:29:52.200
+that let's watch this new spot
+from our upcoming campaign.
+
+00:29:52.200 --> 00:29:53.200
+(
+
+00:29:53.200 --> 00:30:17.570
+M u s i c)
+
+00:30:17.570 --> 00:30:18.570
+.
+(
+
+00:30:18.570 --> 00:30:24.309
+Hi, I'm Sabrina, and I work
+Applause).
+
+00:30:24.309 --> 00:30:25.679
+with Brian on the Pixel Product
+
+00:30:25.679 --> 00:30:30.100
+Management team. At Google,
+we've always taken pride in
+
+00:30:30.100 --> 00:30:34.100
+creating things that are both
+smart and simple. So, we've
+
+00:30:34.100 --> 00:30:36.500
+thought a lot about all the
+different features that make
+
+00:30:36.500 --> 00:30:38.990
+your phone work for you. I
+can't
+
+00:30:38.990 --> 00:30:40.650
+wait to share just a few of
+them
+
+00:30:40.650 --> 00:30:42.220
+with you.
+
+00:30:42.220 --> 00:30:44.059
+First, let's talk about
+
+00:30:44.059 --> 00:30:46.380
+Communications.
+Whether your friends are on
+
+00:30:46.380 --> 00:30:50.020
+Android or iOS, Google Duo, our
+
+00:30:50.020 --> 00:30:51.720
+new video calling app, lets you
+
+00:30:51.720 --> 00:30:55.529
+jump into a call with just a
+single tap. And it comes
+
+00:30:55.529 --> 00:30:58.060
+pre-installed on Pixel.
+
+00:30:58.060 --> 00:30:59.649
+My
+favorite feature in Duo is
+
+00:30:59.649 --> 00:31:02.580
+called knock knock. It shows
+you
+
+00:31:02.580 --> 00:31:05.690
+a live video stream of the
+person calling you before you
+
+00:31:05.690 --> 00:31:09.770
+pick up, so you can see who's
+calling and even what they're
+
+00:31:09.770 --> 00:31:12.740
+doing.
+
+00:31:12.740 --> 00:31:16.520
+Now,
+let's talk about something I
+
+00:31:16.520 --> 00:31:18.370
+know you all really care about
+
+00:31:18.370 --> 00:31:20.650
+-- the battery.
+
+00:31:20.650 --> 00:31:23.240
+We've spent a
+lot of time optimizing Pixel to
+
+00:31:23.240 --> 00:31:26.299
+be smart about improving
+battery life.
+
+00:31:26.299 --> 00:31:27.990
+We made sure you can easily get
+
+00:31:27.990 --> 00:31:31.240
+through your day. But, for the
+times when you need a quick
+
+00:31:31.240 --> 00:31:32.630
+charge -- like when you're
+about
+
+00:31:32.630 --> 00:31:35.529
+to head out to dinner and you
+realize you have literally no
+
+00:31:35.529 --> 00:31:39.570
+power left on your phone --
+Pixel can get you up to 7 hours
+
+00:31:39.570 --> 00:31:43.870
+of power, in just 15 mins of
+charging.
+
+00:31:43.870 --> 00:31:49.100
+of course, Pixel ships with the
+newest Android operating
+
+00:31:49.100 --> 00:31:51.799
+system,
+7.1 Nougat. Pixel users will
+
+00:31:51.799 --> 00:31:54.019
+get
+system and security updates as
+
+00:31:54.019 --> 00:31:55.830
+soon as they're available,
+directly
+
+00:31:55.830 --> 00:31:57.640
+from Google.
+
+00:31:57.640 --> 00:32:00.309
+We've also made the update
+process easier. When a new
+
+00:32:00.309 --> 00:32:02.320
+update is available, it will be
+
+00:32:02.320 --> 00:32:04.649
+downloaded and installed in the
+background.
+
+00:32:04.649 --> 00:32:08.789
+That means, the next time you
+restart the phone, you'll
+
+00:32:08.789 --> 00:32:11.899
+instantly be using the new
+version. We just take care of
+
+00:32:11.899 --> 00:32:14.010
+it
+for you.
+
+00:32:14.010 --> 00:32:16.510
+Gone are the days of
+staring at a progress bar while
+
+00:32:16.510 --> 00:32:21.299
+waiting
+for an update to install.
+
+00:32:21.299 --> 00:32:22.769
+We
+also really want to make sure
+
+00:32:22.769 --> 00:32:25.820
+you feel supported when you're
+using your Pixel. So, we've
+
+00:32:25.820 --> 00:32:31.640
+built 24/7 live customer care
+right into the phone. You can
+
+00:32:31.640 --> 00:32:35.250
+reach a Google support agent
+over phone or chat.
+
+00:32:35.250 --> 00:32:36.789
+And to make
+it easier for them to
+
+00:32:36.789 --> 00:32:40.640
+understand
+and help solve the problem,
+
+00:32:40.640 --> 00:32:42.380
+we've added a screenshare
+option
+
+00:32:42.380 --> 00:32:47.510
+so you can let the agent see
+what you see.
+
+00:32:47.510 --> 00:32:49.649
+Now that we've
+given you all these reasons to
+
+00:32:49.649 --> 00:32:51.830
+switch to Pixel, we've also
+made
+
+00:32:51.830 --> 00:32:53.850
+it super simple to transfer
+over
+
+00:32:53.850 --> 00:32:55.640
+everything that you really care
+about.
+
+00:32:55.640 --> 00:32:58.080
+Y e s
+k now historically it's been
+
+00:32:58.080 --> 00:33:02.149
+hard to switch from one OS to
+another so we built a new tool
+
+00:33:02.149 --> 00:33:07.380
+to let you quickly and easily
+transfer contacts, p hotos,
+
+00:33:07.380 --> 00:33:11.350
+videos, music, texts, calendar
+appointments and your
+
+00:33:11.350 --> 00:33:14.429
+iMessages.
+We even put a Quick Switch
+
+00:33:14.429 --> 00:33:18.010
+Adapter in every box.
+
+00:33:18.010 --> 00:33:19.940
+We're also
+excited to introduce a brand
+
+00:33:19.940 --> 00:33:21.630
+new
+range of cases and accessories
+
+00:33:21.630 --> 00:33:24.900
+for Pixel. These include a new
+Artworks
+
+00:33:24.900 --> 00:33:28.100
+collection of our Live Cases
+with custom designs from top
+
+00:33:28.100 --> 00:33:31.289
+artists such as FAILE, and
+photographers, like Gray Malin
+
+00:33:31.289 --> 00:33:33.700
+and Chris Hadfield.
+
+00:33:33.700 --> 00:33:38.710
+Finally,
+Pixel comes in two sizes: A 5"
+
+00:33:38.710 --> 00:33:42.019
+and a 5.5" display All the
+great
+
+00:33:42.019 --> 00:33:43.019
+features you've
+
+00:33:43.019 --> 00:33:45.660
+heard about
+today work on both.
+
+00:33:45.660 --> 00:33:50.080
+And, both of
+these sizes come with all of
+
+00:33:50.080 --> 00:34:03.429
+these amazing hardware specs.
+
+00:34:03.429 --> 00:34:06.919
+Quite
+Black. Very Silver.
+
+00:34:06.919 --> 00:34:12.419
+And a
+limited edition, Really Blue.
+
+00:34:12.419 --> 00:34:13.419
+(
+
+00:34:13.419 --> 00:34:16.780
+So, let's recap the
+highlights.
+
+00:34:16.780 --> 00:34:17.780
+Applause).
+
+00:34:17.780 --> 00:34:18.950
+So, let's recap the highlights.
+
+00:34:18.950 --> 00:34:21.330
+ship
+with the Google Assistant built
+
+00:34:21.330 --> 00:34:25.569
+in.
+It has the best smartphone
+
+00:34:25.569 --> 00:34:27.649
+includes
+unlimited storage for all your
+
+00:34:27.649 --> 00:34:34.179
+photos and videos. It comes
+with Duo pre-installed.
+
+00:34:34.179 --> 00:34:36.340
+be
+Daydream VR ready. You'll be
+
+00:34:36.340 --> 00:34:38.360
+hearing more about VR shortly.
+
+00:34:38.360 --> 00:34:42.750
+n o w
+, where can you get this stuff?
+
+00:34:42.750 --> 00:34:45.880
+Here in the U.S. we're teaming
+up exclusively with Verizon to
+
+00:34:45.880 --> 00:34:48.030
+bring people el to the market.
+
+00:34:48.030 --> 00:34:49.379
+We're proud to work with them
+
+00:34:49.379 --> 00:34:50.710
+We're proud to work with them
+to put Pixel in the hands of as
+
+00:34:50.710 --> 00:34:52.179
+We're
+also excited to be working with
+
+00:34:52.179 --> 00:34:54.850
+many international partners to
+bring Pixel to the world
+
+00:34:54.850 --> 00:35:00.290
+Additionally, Pixel will be
+available, unlocked, on the
+
+00:35:00.290 --> 00:35:05.990
+Google Store. And for you
+Project Fi fans out there,
+
+00:35:05.990 --> 00:35:07.320
+you'll be happy to know
+
+00:35:07.320 --> 00:35:09.099
+that
+Pixel is the latest device to
+
+00:35:09.099 --> 00:35:14.040
+work on the Project Fi network.
+
+00:35:14.040 --> 00:35:20.740
+$27/month on the Google Store
+here in the US.
+
+00:35:20.740 --> 00:35:23.589
+It's available
+for pre-order starting today in
+
+00:35:23.589 --> 00:35:27.820
+the US, Australia, Canada,
+Germany and the UK. And in
+
+00:35:27.820 --> 00:35:31.070
+India
+starting on October 13.
+
+00:35:31.070 --> 00:35:33.960
+So
+that's the new Pixel, the first
+
+00:35:33.960 --> 00:35:38.010
+phone made by Google, inside
+and out.
+
+00:35:38.010 --> 00:35:42.349
+to
+you about VR. But, before that,
+
+00:35:42.349 --> 00:35:53.109
+here's a recap of all the
+newness of Pixel.
+
+00:35:53.109 --> 00:36:09.510
+( M usic)
+(
+
+00:36:09.510 --> 00:36:59.200
+Applause).
+Hi, how can I help?
+
+00:36:59.200 --> 00:37:00.200
+(
+
+00:37:00.200 --> 00:37:22.579
+Applause). Hi I'm Clay. I lead
+the virtual
+
+00:37:22.579 --> 00:37:27.440
+working on.
+Just to say it: we love VR. For
+
+00:37:27.440 --> 00:37:30.520
+it's not just another screen.
+VR
+
+00:37:30.520 --> 00:37:31.790
+is something we believe is
+going
+
+00:37:31.790 --> 00:37:35.480
+to be important, because unlike
+anything we've seen before, it
+
+00:37:35.480 --> 00:37:38.990
+can make you feel like you're
+somewhere else. It's
+
+00:37:38.990 --> 00:37:40.490
+transporting.
+With VR, you can put on some
+
+00:37:40.490 --> 00:37:45.089
+goggles and feel, viscerally,
+like you're somewhere else.
+
+00:37:45.089 --> 00:37:46.850
+It's
+richer, and far more immersive,
+
+00:37:46.850 --> 00:37:54.140
+and it will impact how we
+explore, work, play, and learn.
+
+00:37:54.140 --> 00:37:57.720
+immersion takes some powerful
+technology, and my team's goal
+
+00:37:57.720 --> 00:38:04.350
+is to make that technology
+simpler, friendlier, and more
+
+00:38:04.350 --> 00:38:06.170
+accessible.
+
+00:38:06.170 --> 00:38:07.710
+platform for high quality
+mobile
+
+00:38:07.710 --> 00:38:11.310
+virtual reality. Daydream ties
+together a bunch of things you
+
+00:38:11.310 --> 00:38:16.700
+need for great VR. Software
+optimizations.
+
+00:38:16.700 --> 00:38:22.070
+experiences. All of this is in
+service of creating a healthy
+
+00:38:22.070 --> 00:38:23.920
+VR
+ecosystem with our partners,
+
+00:38:23.920 --> 00:38:26.170
+and
+with developers." Today, we've
+
+00:38:26.170 --> 00:38:27.780
+got news in all of these areas.
+
+00:38:27.780 --> 00:38:30.340
+Let's start with phones.
+
+00:38:30.340 --> 00:38:31.820
+You
+just heard about the new Pixel
+
+00:38:31.820 --> 00:38:35.600
+phones. They're great phones.
+And, as Sabrina said, we've
+
+00:38:35.600 --> 00:38:38.070
+made
+them great for VR, too. We've
+
+00:38:38.070 --> 00:38:41.400
+tuned everything from their
+sensors to their displays. And
+
+00:38:41.400 --> 00:38:44.741
+the Pixel phones are the first
+which are Daydream-ready, as we
+
+00:38:44.741 --> 00:38:45.741
+call it.
+
+00:38:45.741 --> 00:38:48.530
+Now, of course, you
+need some extra hardware to
+
+00:38:48.530 --> 00:38:54.190
+unlock its VR capabilities.
+Let's talk about the headset.
+
+00:38:54.190 --> 00:38:55.800
+The headset is important to get
+
+00:38:55.800 --> 00:38:59.320
+right. I mean, it's something
+that you wear. On your head!
+
+00:38:59.320 --> 00:39:03.000
+But, when we looked out there,
+we saw some problems. We saw
+
+00:39:03.000 --> 00:39:04.349
+issues with comfort.
+
+00:39:04.349 --> 00:39:06.070
+We saw
+stuff that's pretty hard to
+
+00:39:06.070 --> 00:39:08.119
+use,
+pretty complicated. And,
+
+00:39:08.119 --> 00:39:11.490
+everything just kind of looked
+the same. We looked at all
+
+00:39:11.490 --> 00:39:13.170
+this,
+and we had some ideas. And, we
+
+00:39:13.170 --> 00:39:17.810
+have a bit of a different take
+on the VR headset.
+
+00:39:17.810 --> 00:39:20.450
+I'd like to
+introduce you to... Daydream
+
+00:39:20.450 --> 00:39:22.560
+View.
+
+00:39:22.560 --> 00:39:24.670
+(Applause).
+
+00:39:24.670 --> 00:39:30.170
+It's the first Daydream-ready
+
+00:39:30.170 --> 00:39:33.770
+H
+ead set. If you are into VR,
+
+00:39:33.770 --> 00:39:35.950
+I'll just say that all specs
+are there. It's a nice field
+
+00:39:35.950 --> 00:39:39.829
+of view and with Daydream p
+hone, low latency and accurate
+
+00:39:39.829 --> 00:39:43.070
+head But we didn't just look
+at the
+
+00:39:43.070 --> 00:39:44.070
+tracking.
+But we didn't just look at the
+
+00:39:44.070 --> 00:39:46.360
+details of the design. We
+wanted
+
+00:39:46.360 --> 00:39:50.270
+to make it comfortable, and
+really easy to use. And we
+
+00:39:50.270 --> 00:39:54.270
+thought about how to make it
+your own. First, let's talk
+
+00:39:54.270 --> 00:39:58.570
+about
+comfort. How it fits, how it
+
+00:39:58.570 --> 00:40:00.601
+feels.
+You'll notice immediately, it
+
+00:40:00.601 --> 00:40:02.660
+doesn't quite look like other
+VR
+
+00:40:02.660 --> 00:40:04.250
+headsets. And that's because,
+in
+
+00:40:04.250 --> 00:40:07.369
+designing it, we weren't
+inspired by gadgets. Instead,
+
+00:40:07.369 --> 00:40:08.680
+we
+looked at what do people
+
+00:40:08.680 --> 00:40:14.540
+actually wear? We wear stuff
+that's soft, and flexible, and
+
+00:40:14.540 --> 00:40:16.950
+breathable. So we crafted our
+headset out of that same
+
+00:40:16.950 --> 00:40:18.960
+comfortable stuff.
+
+00:40:18.960 --> 00:40:21.589
+Fabrics, soft
+micro-fiber, and
+
+00:40:21.589 --> 00:40:24.530
+other materials
+borrowed from clothing and
+
+00:40:24.530 --> 00:40:28.560
+athletic wear. In fact, we
+worked with clothing makers to
+
+00:40:28.560 --> 00:40:30.960
+get the design just right. And
+the
+
+00:40:30.960 --> 00:40:32.609
+result is something that's
+soft,
+
+00:40:32.609 --> 00:40:36.330
+and cozy, and that feels great
+to wear. So the materials are
+
+00:40:36.330 --> 00:40:39.970
+really nice.
+
+00:40:39.970 --> 00:40:43.720
+lighter than similar devices.
+And one other thing. To see
+
+00:40:43.720 --> 00:40:48.080
+comfortably, some people need
+some help. People like… me. So
+
+00:40:48.080 --> 00:40:51.420
+we made sure that the headset
+fits well over eye-glasses.
+
+00:40:51.420 --> 00:40:57.150
+So, comfort.
+
+00:40:57.150 --> 00:40:59.370
+it
+easy to use.
+
+00:40:59.370 --> 00:41:02.460
+To start, it's
+gotta be easy to get into VR.
+
+00:41:02.460 --> 00:41:05.140
+You don't want to think about
+cables, and wires, and lots of
+
+00:41:05.140 --> 00:41:06.930
+clicky thingies and connectors.
+
+00:41:06.930 --> 00:41:09.849
+All that stuff just gets in the
+way.
+
+00:41:09.849 --> 00:41:18.160
+Really, you just want to pop
+your phone in and be in VR. And
+
+00:41:18.160 --> 00:41:23.599
+works.
+
+00:41:23.599 --> 00:41:26.170
+The
+headset and phone say hello,
+
+00:41:26.170 --> 00:41:29.190
+wirelessly. There's nothing to
+connect. And the headset
+
+00:41:29.190 --> 00:41:32.040
+includes an auto alignment
+system that gets everything
+
+00:41:32.040 --> 00:41:35.780
+just right.
+So getting into VR is easy.
+
+00:41:35.780 --> 00:41:37.850
+We
+wanted interacting with it to
+
+00:41:37.850 --> 00:41:40.140
+be
+easy, too. And that's where the
+
+00:41:40.140 --> 00:41:42.660
+Daydream controller comes in.
+
+00:41:42.660 --> 00:41:45.829
+important. Because when you go
+someplace, you want to be able
+
+00:41:45.829 --> 00:41:54.280
+to do things there! Let's have
+a look.
+
+00:41:54.280 --> 00:41:59.130
+But it's more to it than meets
+the eye. Hidden inside are a
+
+00:41:59.130 --> 00:42:00.730
+bunch of sensors that respond
+to
+
+00:42:00.730 --> 00:42:01.730
+how you
+
+00:42:01.730 --> 00:42:07.160
+move. You can point,
+swing, and aim. It's so precise
+
+00:42:07.160 --> 00:42:10.980
+that you can draw with it. You
+can write your name. It's
+
+00:42:10.980 --> 00:42:12.380
+really
+powerful, and we'll have a look
+
+00:42:12.380 --> 00:42:13.480
+at some of the things you can
+do
+
+00:42:13.480 --> 00:42:15.859
+with it in a sec.
+
+00:42:15.859 --> 00:42:18.660
+Now, what do
+you do with a controller after
+
+00:42:18.660 --> 00:42:22.960
+you use it? You lose it! You
+lose it. You lose it in the
+
+00:42:22.960 --> 00:42:25.540
+couch or in your bag. We
+didn't
+
+00:42:25.540 --> 00:42:29.210
+want that to happen. So the
+controller has a home in the
+
+00:42:29.210 --> 00:42:30.960
+headset. When you're done,
+
+00:42:30.960 --> 00:42:32.930
+it
+just sort of snuggles right in
+
+00:42:32.930 --> 00:42:34.940
+there, like this.
+
+00:42:34.940 --> 00:42:37.740
+And it's
+details like these that we've
+
+00:42:37.740 --> 00:42:38.950
+worked hard to get
+
+00:42:38.950 --> 00:42:44.920
+right. These
+little things that- - it's
+
+00:42:44.920 --> 00:42:48.940
+very well built.
+These little things that make
+
+00:42:48.940 --> 00:42:52.460
+the whole experience easier and
+more Let's talk about the last
+
+00:42:52.460 --> 00:42:53.460
+seamless.
+
+00:42:53.460 --> 00:42:54.460
+Let's talk about the last
+problem.
+
+00:42:54.460 --> 00:42:56.290
+Everything being kind of the
+same.
+
+00:42:56.290 --> 00:42:57.839
+We wanted you to be able to
+make
+
+00:42:57.839 --> 00:42:58.839
+it yours.
+
+00:42:58.839 --> 00:43:03.130
+And that starts with phones.
+The Pixel phones are the first
+
+00:43:03.130 --> 00:43:06.220
+Daydream-ready phones, and the
+headset of course works with
+
+00:43:06.220 --> 00:43:08.480
+them.
+But there are a lot of other
+
+00:43:08.480 --> 00:43:10.030
+Daydream-ready phones on the
+way
+
+00:43:10.030 --> 00:43:11.030
+from our partners, too,
+
+00:43:11.030 --> 00:43:12.829
+A n d
+the head set will work with
+
+00:43:12.829 --> 00:43:16.140
+them as well Another thing.
+Things you wear.
+
+00:43:16.140 --> 00:43:17.140
+Another thing. Things you wear
+
+00:43:17.140 --> 00:43:18.920
+don't come in one color. And we
+
+00:43:18.920 --> 00:43:22.550
+didn't see why a VR headset
+should either. With Daydream
+
+00:43:22.550 --> 00:43:25.300
+View, you'll be able to choose
+your color. At
+
+00:43:25.300 --> 00:43:28.410
+launch we'll have
+Slate. Later this year, we'll
+
+00:43:28.410 --> 00:43:36.920
+add two other colors: Snow and
+Crimson.
+
+00:43:36.920 --> 00:43:39.089
+headset that you can make your
+own.
+
+00:43:39.089 --> 00:43:42.050
+Now, of course, what really
+matters here is what you can
+
+00:43:42.050 --> 00:43:44.280
+do.
+There's a lot to show you, and
+
+00:43:44.280 --> 00:43:45.540
+for that, I want to invite up
+
+00:43:45.540 --> 00:43:47.400
+A d
+rienne McCallister, director
+
+00:43:47.400 --> 00:43:48.400
+of
+
+00:43:48.400 --> 00:43:53.560
+Thanks Clay. Hi, I'm Adrienne.
+partnerships.
+
+00:43:53.560 --> 00:43:57.970
+Thanks Clay. Hi, I'm Adrienne.
+
+00:43:57.970 --> 00:44:00.780
+I lead VR partnerships for
+Daydream.
+
+00:44:00.780 --> 00:44:02.980
+The team has been working
+closely with our partners to
+
+00:44:02.980 --> 00:44:04.589
+bring some incredibly immersive
+
+00:44:04.589 --> 00:44:07.849
+experiences to Daydream. And,
+I'd love to show you just a few
+
+00:44:07.849 --> 00:44:12.100
+of them. With Daydream you're
+going to be able to Explore
+
+00:44:12.100 --> 00:44:15.540
+some really
+magical places. And what's
+
+00:44:15.540 --> 00:44:16.950
+more
+magical than the Wizarding
+
+00:44:16.950 --> 00:44:19.780
+World
+of JK Rowling?
+
+00:44:19.780 --> 00:44:21.849
+I'm excited to
+announce that we've worked with
+
+00:44:21.849 --> 00:44:24.410
+Warner
+Brothers to bring an exclusive
+
+00:44:24.410 --> 00:44:30.050
+Fantastic Beasts experience to
+Daydream.
+
+00:44:30.050 --> 00:44:41.200
+( M u s ic)
+
+00:44:41.200 --> 00:44:54.550
+magic wand that you can use to
+levitate objects and cast
+
+00:44:54.550 --> 00:44:58.420
+spells.
+We're really stoked about this…
+
+00:44:58.420 --> 00:45:03.760
+be wizards. We're also really
+excited about some great
+
+00:45:03.760 --> 00:45:06.950
+Educational
+experiences on Daydream. One
+
+00:45:06.950 --> 00:45:09.670
+out-of-this-world example….
+
+00:45:09.670 --> 00:45:12.550
+makers of Star Chart…. an app
+that let's you explore the
+
+00:45:12.550 --> 00:45:16.390
+solar
+system and learn all the
+
+00:45:16.390 --> 00:45:17.849
+constellations.
+
+00:45:17.849 --> 00:45:20.580
+It's like having your own
+personal planetarium where you
+
+00:45:20.580 --> 00:45:24.840
+can fly thru the stars and
+explore new galaxies.
+
+00:45:24.840 --> 00:45:28.390
+The stars
+are also a place for epic space
+
+00:45:28.390 --> 00:45:31.150
+battles… and Daydream is going
+to be a stellar place for
+
+00:45:31.150 --> 00:45:34.710
+Games.
+We're excited about GunJack2…
+
+00:45:34.710 --> 00:45:40.960
+from CCP… the creators of Eve.
+In it, you're in the cockpit of
+
+00:45:40.960 --> 00:45:43.480
+defending the fleet against
+alien ships.
+
+00:45:43.480 --> 00:45:45.119
+You can use the
+controller look all around you,
+
+00:45:45.119 --> 00:45:49.010
+and aim the ship's laser
+anywhere you want.T o blast
+
+00:45:49.010 --> 00:45:51.300
+those alien s hips.
+
+00:45:51.300 --> 00:45:53.960
+Back on
+earth…. for when you
+
+00:45:53.960 --> 00:45:56.589
+just want to kick back on the
+couch and watch something -
+
+00:45:56.589 --> 00:46:02.329
+we've been working with the
+likes of Netflix, HBO, and Hulu
+
+00:46:02.329 --> 00:46:03.670
+Entertainment libraries to
+Daydream.
+
+00:46:03.670 --> 00:46:07.481
+When you're in VR, you can see
+it all on your big screen, and
+
+00:46:07.481 --> 00:46:12.450
+take that big screen wherever
+you want to go.
+
+00:46:12.450 --> 00:46:14.410
+When you want to
+turn your attention to current
+
+00:46:14.410 --> 00:46:17.390
+events and News, The New York
+Times has been doing important
+
+00:46:17.390 --> 00:46:20.450
+work in VR documentary and
+news.
+
+00:46:20.450 --> 00:46:21.800
+They've told us stories that
+put
+
+00:46:21.800 --> 00:46:26.670
+us alongside performers,
+soldiers, and refugees. In VR
+
+00:46:26.670 --> 00:46:29.430
+you see the world from their
+perspective.
+
+00:46:29.430 --> 00:46:38.329
+It's powerful journalism...
+brought into virtual reality.
+
+00:46:38.329 --> 00:46:42.720
+are bringing to Daydream. Over
+50 partners are bringing you
+
+00:46:42.720 --> 00:46:45.640
+apps and games to Daydream
+before the end of the year, and
+
+00:46:45.640 --> 00:46:50.740
+way.
+To complement our partners….
+
+00:46:50.740 --> 00:46:52.430
+We're also bringing "The Best
+
+00:46:52.430 --> 00:46:56.609
+of
+Google" to Daydream. And
+
+00:46:56.609 --> 00:46:57.930
+there's so much here! First,
+there's Google Play Movies...
+
+00:46:57.930 --> 00:47:00.910
+with the their library of shows
+and films where you can watch
+
+00:47:00.910 --> 00:47:04.250
+on
+your own big-screen. Then
+
+00:47:04.250 --> 00:47:05.940
+there's Google Photos, where
+you
+
+00:47:05.940 --> 00:47:08.530
+can relive your personal
+memories in a completely
+
+00:47:08.530 --> 00:47:14.370
+immersive way. And then there's
+Street View, and YouTube.
+
+00:47:14.370 --> 00:47:17.690
+Let's
+take a look.
+
+00:47:17.690 --> 00:47:20.570
+With StreetView in Daydream,
+you can visit thousands of
+
+00:47:20.570 --> 00:47:24.150
+places in 70 different
+countries. And we've built 150
+
+00:47:24.150 --> 00:47:32.230
+curated tours of the world's
+most amazing places, so you can
+
+00:47:32.230 --> 00:47:35.869
+There are also some
+hidden gems in Street View. For
+
+00:47:35.869 --> 00:47:39.630
+instance,
+you can visit the Faroe Islands
+
+00:47:39.630 --> 00:47:43.920
+of... a sheep.
+
+00:47:43.920 --> 00:47:46.200
+Or as our Faroe
+Island friends like to refer to
+
+00:47:46.200 --> 00:47:50.060
+it... Sheep View.
+
+00:47:50.060 --> 00:47:53.470
+And finally
+there's… YouTube. YouTube on
+
+00:47:53.470 --> 00:47:56.510
+Daydream is amazing.
+
+00:47:56.510 --> 00:47:59.240
+To start…
+You can access the entire
+
+00:47:59.240 --> 00:48:03.010
+library of YouTube videos -
+regular videos - and watch them
+
+00:48:03.010 --> 00:48:06.579
+on a cinema-sized screen. Your
+favorites on YouTube have
+
+00:48:06.579 --> 00:48:11.089
+never... looked... better … or
+bigger!
+
+00:48:11.089 --> 00:48:14.920
+experience
+really shines is with 360 &amp; VR
+
+00:48:14.920 --> 00:48:18.680
+videos, where you're not just
+watching a film, you're in the
+
+00:48:18.680 --> 00:48:19.680
+film.
+
+00:48:19.680 --> 00:48:23.350
+from
+the London Museum of Natural
+
+00:48:23.350 --> 00:48:26.880
+History. You're standing in the
+hall of the museum, looking
+
+00:48:26.880 --> 00:48:35.160
+around and… dinosaurs come back
+to life right in front of you.
+
+00:48:35.160 --> 00:48:58.710
+I
+don't think he's done yet.
+
+00:48:58.710 --> 00:49:11.050
+He
+looks even hungrier in virtual
+
+00:49:11.050 --> 00:49:13.100
+reality.
+
+00:49:13.100 --> 00:49:15.650
+of
+thousands of immersive videos
+
+00:49:15.650 --> 00:49:17.660
+on
+YouTube, and we're working with
+
+00:49:17.660 --> 00:49:20.660
+YouTube's top creators to bring
+you even more original VR
+
+00:49:20.660 --> 00:49:22.420
+content in the months to come.
+
+00:49:22.420 --> 00:49:25.510
+So, that's just a glimpse of
+what's coming to Daydream from
+
+00:49:25.510 --> 00:49:29.280
+our partners and from Google.
+With that I'd like to turn it
+
+00:49:29.280 --> 00:49:34.040
+back to Clay. Thank you.
+
+00:49:34.040 --> 00:49:38.339
+So,
+that's the update onA p plause.
+
+00:49:38.339 --> 00:49:40.410
+So, that's the update on
+Daydream. The first
+
+00:49:40.410 --> 00:49:43.040
+Daydream-ready phones, with the
+
+00:49:43.040 --> 00:49:46.030
+Pixel. A headset that's really
+comfortable. A controller
+
+00:49:46.030 --> 00:49:48.530
+that's
+powerful and also easy to use.
+
+00:49:48.530 --> 00:49:51.300
+And so much to experience.
+
+00:49:51.300 --> 00:49:52.640
+All
+of this comes together in
+
+00:49:52.640 --> 00:49:54.450
+November, when Daydream View
+and
+
+00:49:54.450 --> 00:49:57.040
+the controller go on sale,
+together, for $79.
+
+00:49:57.040 --> 00:49:59.820
+So that's it.
+Our next step in pushing
+
+00:49:59.820 --> 00:50:00.870
+forward
+the Daydream
+
+00:50:00.870 --> 00:50:02.930
+ecosystem, and our
+next step in making high
+
+00:50:02.930 --> 00:50:07.720
+quality VR
+accessible, to everyone. With
+
+00:50:07.720 --> 00:50:12.330
+that, I'd like to turn it over
+to Mario. Thank you so much.
+
+00:50:12.330 --> 00:50:18.069
+(Applause).
+Hello. I'm Mario. And I lead
+
+00:50:18.069 --> 00:50:21.359
+our product management group
+within hardware. Let's talk
+
+00:50:21.359 --> 00:50:26.160
+now about the home. All of us
+are connected in our homes,
+
+00:50:26.160 --> 00:50:29.890
+more and more through lots of
+technology, and there's a lot
+
+00:50:29.890 --> 00:50:33.900
+of opportunity for improving
+those experiences. Today we
+
+00:50:33.900 --> 00:50:36.880
+are announcing some exciting
+products as part of our vision
+
+00:50:36.880 --> 00:50:40.599
+for the home, including
+connectivity, entertainment,
+
+00:50:40.599 --> 00:50:41.970
+and the Google
+
+00:50:41.970 --> 00:50:43.210
+A great online experience
+Assistant.
+
+00:50:43.210 --> 00:50:49.119
+A great online experience
+begins with great connectivity.
+
+00:50:49.119 --> 00:50:52.681
+routers were not designed for
+the way we use WiFi at home
+
+00:50:52.681 --> 00:50:55.859
+today. We're streaming, gaming,
+
+00:50:55.859 --> 00:51:01.630
+video-chatting, and more,
+throughout the entire house.
+
+00:51:01.630 --> 00:51:08.280
+OnHub router, with TP-Link and
+ASUS as partners, to make home
+
+00:51:08.280 --> 00:51:12.760
+connectivity better. We're
+continuing to build this
+
+00:51:12.760 --> 00:51:15.590
+technology for the benefit of
+the partner ecosystem,
+
+00:51:15.590 --> 00:51:18.980
+including ISPs.
+We've integrated the latest
+
+00:51:18.980 --> 00:51:24.540
+advances into our own Wi-Fi
+product.
+
+00:51:24.540 --> 00:51:30.849
+to support the new ways we use
+Wi-Fi.
+
+00:51:30.849 --> 00:51:33.550
+First, it's an expandable
+system
+
+00:51:33.550 --> 00:51:35.680
+to give you much better
+coverage.
+
+00:51:35.680 --> 00:51:39.079
+Unlike a single central router,
+
+00:51:39.079 --> 00:51:40.930
+multiple Google Wifi points
+work
+
+00:51:40.930 --> 00:51:43.050
+together to do a much better
+job
+
+00:51:43.050 --> 00:51:45.309
+of delivering fast throughput
+to
+
+00:51:45.309 --> 00:51:47.380
+every corner of the home.
+
+00:51:47.380 --> 00:51:49.240
+It's
+modular, so you can get the
+
+00:51:49.240 --> 00:51:54.050
+right fit for your home's shape
+and size. Simply add Wifi
+
+00:51:54.050 --> 00:51:58.109
+points to
+expand coverage.
+
+00:51:58.109 --> 00:51:59.589
+We've also
+designed the hardware to be
+
+00:51:59.589 --> 00:52:02.930
+visually subtle and fit in
+anywhere in the home, without
+
+00:52:02.930 --> 00:52:12.599
+compromising aesthetics.
+
+00:52:12.599 --> 00:52:16.160
+actively manage and optimize
+your network, behind the
+
+00:52:16.160 --> 00:52:18.380
+scenes,
+so you don't have to figure out
+
+00:52:18.380 --> 00:52:21.680
+how to adjust your router.
+Network Assist keeps your
+
+00:52:21.680 --> 00:52:23.930
+signal
+strong, even as you roam
+
+00:52:23.930 --> 00:52:29.839
+throughout the house, by
+intelligently transitioning you
+
+00:52:29.839 --> 00:52:34.309
+placing you on the right Wi-Fi
+channel to avoid congestion.
+
+00:52:34.309 --> 00:52:35.760
+For
+those times when you do want
+
+00:52:35.760 --> 00:52:39.579
+control of your Wi-Fi network,
+we make it easy through a
+
+00:52:39.579 --> 00:52:40.579
+companion app.
+
+00:52:40.579 --> 00:52:45.380
+At my house, it's sometimes
+hard to get my teenage
+
+00:52:45.380 --> 00:52:48.319
+daughters
+to pause YouTube or Netflix on
+
+00:52:48.319 --> 00:52:52.780
+their computers to come to the
+dinner table. Google Wifi lets
+
+00:52:52.780 --> 00:52:53.780
+you manage the
+
+00:52:53.780 --> 00:52:57.460
+W i - F i access
+of the your kids. If dinner is
+
+00:52:57.460 --> 00:52:59.290
+on the fable, you don't have to
+
+00:52:59.290 --> 00:53:02.819
+shut down the router. Just go
+to the app and simply press
+
+00:53:02.819 --> 00:53:08.400
+pause on their devices for
+quality family t ime.
+
+00:53:08.400 --> 00:53:10.990
+Google
+Wifi will be available
+
+00:53:10.990 --> 00:53:15.600
+for pre-orders in November and
+it will ship in early December.
+
+00:53:15.600 --> 00:53:20.810
+$129
+for a single-pack. For larger
+
+00:53:20.810 --> 00:53:21.810
+homes, we are
+
+00:53:21.810 --> 00:53:26.390
+offering a 3-pack
+at $299 We believe Google Wifi
+
+00:53:26.390 --> 00:53:28.609
+will
+make a big and immediate
+
+00:53:28.609 --> 00:53:33.609
+improvement in internet
+connectivity in your home.
+
+00:53:33.609 --> 00:53:35.180
+Our
+second product announcement
+
+00:53:35.180 --> 00:53:37.170
+today as part of our vision for
+
+00:53:37.170 --> 00:53:39.810
+the home is in the area of
+entertainment. We have some
+
+00:53:39.810 --> 00:53:43.290
+exciting news about Chromecast.
+
+00:53:43.290 --> 00:53:47.130
+Last year, we launched two new
+Chromecast products: the
+
+00:53:47.130 --> 00:53:48.970
+second-generation Chromecast
+and
+
+00:53:48.970 --> 00:53:53.559
+Chromecast Audio. The feedback
+has been very positive. Overall
+
+00:53:53.559 --> 00:53:58.090
+watch time has increased 160%
+since last year.
+
+00:53:58.090 --> 00:54:01.400
+We've now sold
+more than 30M Chromecast
+
+00:54:01.400 --> 00:54:03.350
+devices, and we're continuing
+to
+
+00:54:03.350 --> 00:54:06.700
+innovate on Chromecast to
+deliver the best streaming
+
+00:54:06.700 --> 00:54:12.680
+experience.
+So, today we are introducing
+
+00:54:12.680 --> 00:54:16.420
+premium TV streaming device to
+date. Chromecast Ultra brings
+
+00:54:16.420 --> 00:54:20.180
+everything you already love
+about Chromecast plus even
+
+00:54:20.180 --> 00:54:24.960
+crisper picture and better
+performance.
+
+00:54:24.960 --> 00:54:33.580
+your favorite content in up to
+4K Ultra HD resolution with HDR
+
+00:54:33.580 --> 00:54:37.059
+can get the highest contrast
+ratio and deepest colors from
+
+00:54:37.059 --> 00:54:39.910
+your favorite TV shows on
+Netflix
+
+00:54:39.910 --> 00:54:44.180
+mine happens to be Narcos,
+popular titles from Vudu and
+
+00:54:44.180 --> 00:54:46.880
+YouTube's extensive catalogue
+of
+
+00:54:46.880 --> 00:54:48.250
+4K videos.
+
+00:54:48.250 --> 00:54:50.940
+And we're happy to announce
+that Google Play Movies will be
+
+00:54:50.940 --> 00:54:57.250
+November, supported on
+Chromecast Ultra. Your shows
+
+00:54:57.250 --> 00:55:01.960
+and
+movies will look fantastic.
+
+00:55:01.960 --> 00:55:04.799
+improved performance and
+reliability.
+
+00:55:04.799 --> 00:55:08.680
+Chromecast Ultra is 1.8 times
+faster to load content and
+
+00:55:08.680 --> 00:55:10.990
+includes major WiFi
+improvements
+
+00:55:10.990 --> 00:55:18.990
+to support streams from full HD
+to Ultra HD without a hitch.
+
+00:55:18.990 --> 00:55:21.520
+with an Ethernet port. It's
+integrated into the power
+
+00:55:21.520 --> 00:55:26.010
+adapter so it's simple to
+connect.
+
+00:55:26.010 --> 00:55:29.400
+Chromecast
+Ultra comes in a small, compact
+
+00:55:29.400 --> 00:55:32.420
+size, that hides conveniently
+behind your TV. No extra
+
+00:55:32.420 --> 00:55:35.430
+cables,
+boxes, or clutter. And of
+
+00:55:35.430 --> 00:55:39.069
+course, Chromecast Ultra
+includes all of the great
+
+00:55:39.069 --> 00:55:41.410
+content already available on
+Chromecast.
+
+00:55:41.410 --> 00:55:43.510
+J u s
+t cast your favorite
+
+00:55:43.510 --> 00:55:48.340
+entertainment from your phone,
+tablet or lab top. Chromecast
+
+00:55:48.340 --> 00:55:49.340
+Ultra will be
+
+00:55:49.340 --> 00:55:50.700
+Chromecast Ultra will be
+available later this year for
+
+00:55:50.700 --> 00:55:54.680
+$69. It showcases the next
+generation streaming
+
+00:55:54.680 --> 00:55:56.849
+technology.
+
+00:55:56.849 --> 00:56:02.290
+Home.
+At Google I/O, we gave a
+
+00:56:02.290 --> 00:56:04.490
+preview
+of where we plan on taking
+
+00:56:04.490 --> 00:56:08.869
+Google Home in the next few
+years. Today, we're sharing the
+
+00:56:08.869 --> 00:56:13.270
+details of the product. As we
+heard from Sundar, the Google
+
+00:56:13.270 --> 00:56:16.540
+Assistant works across many
+facets of your life, including
+
+00:56:16.540 --> 00:56:17.920
+at Home.
+
+00:56:17.920 --> 00:56:20.290
+Our homes are special and
+different from other
+
+00:56:20.290 --> 00:56:22.280
+environments. It's where we
+spend time with family and
+
+00:56:22.280 --> 00:56:25.609
+friends, where we get a lot of
+stuff done, and where we relax
+
+00:56:25.609 --> 00:56:27.630
+and unwind.
+
+00:56:27.630 --> 00:56:30.700
+Many times, you
+can't or don't want to reach
+
+00:56:30.700 --> 00:56:32.820
+for
+your phone -- you may be
+
+00:56:32.820 --> 00:56:33.870
+cooking, doing homework with
+the
+
+00:56:33.870 --> 00:56:36.839
+kids, or sitting with friends
+at the
+
+00:56:36.839 --> 00:56:39.010
+dinner table. So, we've
+designed
+
+00:56:39.010 --> 00:56:42.069
+a product that works in a
+hands-free way and makes the
+
+00:56:42.069 --> 00:56:44.090
+Assistant
+available whenever you need it
+
+00:56:44.090 --> 00:56:50.921
+voice.
+Google Home lets you Enjoy your
+
+00:56:50.921 --> 00:56:54.620
+music
+Get answers from Google Manage
+
+00:56:54.620 --> 00:56:55.620
+your everyday
+
+00:56:55.620 --> 00:57:01.200
+Manage your
+everyday tasks and home. So
+
+00:57:01.200 --> 00:57:02.730
+here
+is Google Home.
+
+00:57:02.730 --> 00:57:05.280
+Our design was
+inspired by consumer products
+
+00:57:05.280 --> 00:57:08.559
+that are commonly found in
+homes, like wine glasses and
+
+00:57:08.559 --> 00:57:12.880
+candles. We went with a white
+top and a clean diagonal face
+
+00:57:12.880 --> 00:57:15.319
+for a neutral look that blends
+in.
+
+00:57:15.319 --> 00:57:19.059
+The top surface has LEDs that
+provide visual feedback when
+
+00:57:19.059 --> 00:57:23.500
+Google Home recognizes "OK
+Google", so you know when it is
+
+00:57:23.500 --> 00:57:24.500
+t
+ening.
+
+00:57:24.500 --> 00:57:27.440
+In those rare moments when
+voice won't do, the top surface
+
+00:57:27.440 --> 00:57:32.750
+panel. You can simply use your
+finger to pause the music,
+
+00:57:32.750 --> 00:57:34.970
+adjust volume, or trigger the
+
+00:57:34.970 --> 00:57:36.450
+G o o g l e
+Google Home was designed with
+
+00:57:36.450 --> 00:57:37.450
+a
+Assistant.
+
+00:57:37.450 --> 00:57:38.450
+Google Home was designed with a
+
+00:57:38.450 --> 00:57:39.810
+2-microphone system for
+accurate
+
+00:57:39.810 --> 00:57:43.440
+far-field voice recognition.
+We've simulated hundreds of
+
+00:57:43.440 --> 00:57:47.110
+thousands of noisy environments
+and applied machine learning to
+
+00:57:47.110 --> 00:57:48.750
+recognize
+patterns that allow us to
+
+00:57:48.750 --> 00:57:52.339
+filter
+and separate speech from noise.
+
+00:57:52.339 --> 00:57:55.970
+This enables us to deliver
+best-in-class voice recognition
+
+00:57:55.970 --> 00:57:57.790
+and minimize error rates --
+even
+
+00:57:57.790 --> 00:57:58.790
+from across the
+
+00:57:58.790 --> 00:58:00.299
+The mic mute
+button gives youR o o m .
+
+00:58:00.299 --> 00:58:08.559
+The mic mute button gives you
+total control so the product is
+
+00:58:08.559 --> 00:58:11.150
+speaker in Google Home sets the
+standard for audio quality in
+
+00:58:11.150 --> 00:58:13.770
+this new category. It contains
+a
+
+00:58:13.770 --> 00:58:17.660
+forward facing high-excursion
+active driver, with dual
+
+00:58:17.660 --> 00:58:20.770
+side-facing passive radiators.
+This design delivers a
+
+00:58:20.770 --> 00:58:25.170
+full-range, natural sounding
+experience, with rich bass and
+
+00:58:25.170 --> 00:58:27.482
+C l e a r
+Finally, we made it reallyh i
+
+00:58:27.482 --> 00:58:28.482
+g
+hs.
+
+00:58:28.482 --> 00:58:29.482
+Finally, we made it really
+simple to swap bases to
+
+00:58:29.482 --> 00:58:35.099
+customize your Google Home
+device to match the style of
+
+00:58:35.099 --> 00:58:37.310
+All
+of these features add up to a
+
+00:58:37.310 --> 00:58:39.299
+beautiful and powerful
+
+00:58:39.299 --> 00:58:41.020
+So now
+I'm going to inviteP r oduct.
+
+00:58:41.020 --> 00:58:43.390
+So now I'm going to invite
+Rishi Chandra on stage to show
+
+00:58:43.390 --> 00:58:45.381
+in more detail what Google Home
+
+00:58:45.381 --> 00:58:49.299
+can do.
+
+00:58:49.299 --> 00:58:55.150
+Thanks Mario. I'm
+excited to show you Google
+
+00:58:55.150 --> 00:58:57.480
+Home.
+It's a little hard to replicate
+
+00:58:57.480 --> 00:58:59.730
+a home environment on the
+stage,
+
+00:58:59.730 --> 00:59:01.940
+so we recorded real examples of
+
+00:59:01.940 --> 00:59:04.450
+Google Home in action.
+Afterwards, you will have a
+
+00:59:04.450 --> 00:59:07.180
+chance to experience it live in
+
+00:59:07.180 --> 00:59:11.619
+the demo stations upstairs. So
+let's get started. First,
+
+00:59:11.619 --> 00:59:13.420
+Google
+Home helps you enjoy your
+
+00:59:13.420 --> 00:59:14.420
+music.
+
+00:59:14.420 --> 00:59:16.670
+W
+hen I get home, I love to
+
+00:59:16.670 --> 00:59:19.881
+kickback, relax and listen to
+some tunes and voice is a
+
+00:59:19.881 --> 00:59:22.160
+really simple way to get "OK
+Google, play Don't Let me
+
+00:59:22.160 --> 00:59:24.960
+started.
+"OK Google, play Don't Let me
+
+00:59:24.960 --> 00:59:26.280
+Down by the Chainsmokers"
+
+00:59:26.280 --> 00:59:32.609
+D on't
+let me down by the chain s
+
+00:59:32.609 --> 00:59:40.190
+mokers. Sure. Playing on
+
+00:59:40.190 --> 00:59:45.400
+It's
+really simple. And you're
+
+00:59:45.400 --> 00:59:46.579
+YouTube.
+It's really simple. And you're
+
+00:59:46.579 --> 00:59:51.780
+with your voice. "OK Google,
+turn it down"
+
+00:59:51.780 --> 00:59:53.010
+And the great
+thing is that you never a need
+
+00:59:53.010 --> 00:59:54.160
+to pull out your phone or
+fumble
+
+00:59:54.160 --> 00:59:57.290
+with a remote. Just ask for
+your favorite
+
+00:59:57.290 --> 00:59:59.619
+song, artist or album and we
+can
+
+00:59:59.619 --> 01:00:02.220
+play it. In this case, I'm
+using YouTube
+
+01:00:02.220 --> 01:00:06.089
+Music, which has an almost
+
+01:00:06.089 --> 01:00:11.130
+concerts, covers and more.
+Google Home supports many of
+
+01:00:11.130 --> 01:00:12.329
+the
+most popular music services,
+
+01:00:12.329 --> 01:00:15.650
+including Google Play Music,
+Spotify, Pandora,
+
+01:00:15.650 --> 01:00:18.560
+TuneIn, and
+soon iHeartRadio, so you have a
+
+01:00:18.560 --> 01:00:21.049
+wide selection of options.
+
+01:00:21.049 --> 01:00:22.049
+For
+example, let's say I'm in the
+
+01:00:22.049 --> 01:00:26.700
+mood for some retro workout
+music. Google Play Music has a
+
+01:00:26.700 --> 01:00:29.581
+ton of great expert-curated
+playlists that can match any
+
+01:00:29.581 --> 01:00:31.589
+mood or activity.
+
+01:00:31.589 --> 01:00:35.059
+OK Google,
+play 80s workout music from
+
+01:00:35.059 --> 01:00:36.059
+Google Play
+
+01:00:36.059 --> 01:00:39.599
+M usic. All right.
+Here is a Google Play Music
+
+01:00:39.599 --> 01:00:44.790
+station called head bands and
+leg warmers, 80's workout. (
+
+01:00:44.790 --> 01:00:50.710
+This song brings back someMusic)
+
+01:00:50.710 --> 01:00:53.119
+This song brings back some
+great memories.
+
+01:00:53.119 --> 01:00:56.380
+We also make it
+easy to set a default music
+
+01:00:56.380 --> 01:00:59.500
+service. So if your preferred
+provider is Spotify, you don't
+
+01:00:59.500 --> 01:01:01.490
+have to keep saying "on
+Spotify"
+
+01:01:01.490 --> 01:01:04.830
+over and over. We want Google
+Home to adapt to your
+
+01:01:04.830 --> 01:01:07.530
+preferences.
+And what's unique about Google
+
+01:01:07.530 --> 01:01:09.069
+Home is that our music search
+
+01:01:09.069 --> 01:01:11.160
+is
+powered by Google. So if you
+
+01:01:11.160 --> 01:01:12.430
+don't remember the exact name
+of
+
+01:01:12.430 --> 01:01:16.530
+that song, we can still help
+you. Check this out.
+
+01:01:16.530 --> 01:01:18.901
+OK Google,
+play that Shakira song from
+
+01:01:18.901 --> 01:01:19.901
+Zootopia
+
+01:01:19.901 --> 01:01:24.651
+(
+It's pretty cool. Even though I
+
+01:01:24.651 --> 01:01:35.650
+Music)
+It's pretty cool. Even though I
+
+01:01:35.650 --> 01:01:37.211
+to
+infer it from the context of
+
+01:01:37.211 --> 01:01:39.640
+the
+movie Zootopia. This comes from
+
+01:01:39.640 --> 01:01:42.470
+years of building search. So
+now
+
+01:01:42.470 --> 01:01:45.579
+it is easier than ever to play
+the music you want on Google
+
+01:01:45.579 --> 01:01:46.579
+Home.
+
+01:01:46.579 --> 01:01:48.680
+listen to all types of audio --
+
+01:01:48.680 --> 01:01:53.619
+whether it be music, news,
+podcasts and more. So if you
+
+01:01:53.619 --> 01:01:54.799
+want to listen to your favorite
+
+01:01:54.799 --> 01:02:01.170
+the latest news from the NPR,
+you can just ask for it. And of
+
+01:02:01.170 --> 01:02:05.299
+course, you can also cast audio
+to Google Home from your
+
+01:02:05.299 --> 01:02:10.540
+Android
+or iOS device, so you can play
+
+01:02:10.540 --> 01:02:14.530
+almost anything on the speaker.
+
+01:02:14.530 --> 01:02:18.569
+our
+great sounding Wifi speaker
+
+01:02:18.569 --> 01:02:20.240
+with
+voice control from the Google
+
+01:02:20.240 --> 01:02:21.240
+Assistant.
+
+01:02:21.240 --> 01:02:24.010
+.
+S o that's music. Number
+
+01:02:24.010 --> 01:02:28.300
+two, Google home helps you get
+answers from Our mission has
+
+01:02:28.300 --> 01:02:30.619
+always been toGoogle.
+Our mission has always been to
+
+01:02:30.619 --> 01:02:32.770
+information. Over the past few
+years, we have gone beyond the
+
+01:02:32.770 --> 01:02:34.630
+blue links into providing
+direct
+
+01:02:34.630 --> 01:02:36.819
+answers to your questions. We
+do
+
+01:02:36.819 --> 01:02:39.069
+this with the Knowledge Graph,
+which as Sundar mentions,
+
+01:02:39.069 --> 01:02:41.700
+understands
+over 70B facts.
+
+01:02:41.700 --> 01:02:44.280
+With Google
+Home, we give you a way to
+
+01:02:44.280 --> 01:02:48.830
+access the knowledge of Google
+in a hands-free way. For
+
+01:02:48.830 --> 01:02:52.630
+example, let's stay with the
+music theme. OK Google, what is
+
+01:02:52.630 --> 01:02:53.630
+Adele's real name?
+
+01:02:53.630 --> 01:02:57.309
+A delle's full
+name is Adelle Lori blue at
+
+01:02:57.309 --> 01:02:59.040
+OK
+Google, how many Grammy'skins.
+
+01:02:59.040 --> 01:03:02.900
+OK Google, how many Grammy's
+has she won?A ccording to
+
+01:03:02.900 --> 01:03:09.349
+Wikipedia with a total of 20
+awards. She is the most
+
+01:03:09.349 --> 01:03:13.150
+nominated woman in Grammy
+history. That's a lot of You
+
+01:03:13.150 --> 01:03:14.180
+may have noticed that last
+Grammy's.
+
+01:03:14.180 --> 01:03:15.200
+You may have noticed that last
+
+01:03:15.200 --> 01:03:19.470
+answer didn't come Google, but
+instead from Wikipedia. Our
+
+01:03:19.470 --> 01:03:20.940
+knowledge graph can cover a lot
+
+01:03:20.940 --> 01:03:24.710
+of information, but it doesn't
+cover everything. Fortunately,
+
+01:03:24.710 --> 01:03:26.860
+we launched a feature several
+years ago called Featured
+
+01:03:26.860 --> 01:03:30.859
+Snippets. If we cannot find a
+direct answer, we try to find
+
+01:03:30.859 --> 01:03:32.349
+the website that has best
+answer
+
+01:03:32.349 --> 01:03:34.230
+to your question, and give you
+a short
+
+01:03:34.230 --> 01:03:36.339
+quote from it to help you
+decide
+
+01:03:36.339 --> 01:03:40.789
+whether to read more. It allows
+you to find answers to a much
+
+01:03:40.789 --> 01:03:44.319
+wider range of questions. So
+for example,
+
+01:03:44.319 --> 01:03:47.060
+let's say I want to confirm
+before the kids spoil the dog
+
+01:03:47.060 --> 01:03:48.079
+with treats.
+
+01:03:48.079 --> 01:03:50.650
+OK Google, can dogs eat
+chocolate?A
+
+01:03:50.650 --> 01:03:54.730
+ccording to hill's pet
+nutrition, humans met tap lies
+
+01:03:54.730 --> 01:03:58.750
+the A brvment omine but dogs
+process is much more So that
+
+01:03:58.750 --> 01:04:02.539
+sounds like a clear no.slowly.
+
+01:04:02.539 --> 01:04:04.859
+So that sounds like a clear no.
+
+01:04:04.859 --> 01:04:08.460
+Or let's say I accidentally
+spill my wine. OK Google, how
+
+01:04:08.460 --> 01:04:10.150
+do
+you get wine stains out of a
+
+01:04:10.150 --> 01:04:12.869
+rug?A
+ccording to patch, mix one
+
+01:04:12.869 --> 01:04:15.549
+quarter tea spoon of liquid
+dish washing deearthent with
+
+01:04:15.549 --> 01:04:19.290
+four cups of lukewarm water.
+Work the solution into the
+
+01:04:19.290 --> 01:04:25.000
+stain by using a gentle
+blotting motion. Then use
+
+01:04:25.000 --> 01:04:26.680
+water and a clean cloth to blot
+
+01:04:26.680 --> 01:04:30.079
+the spill and it should remove
+the rest of the stain. We are
+
+01:04:30.079 --> 01:04:31.079
+very
+
+01:04:31.079 --> 01:04:32.890
+This is something only Google
+thorough.
+
+01:04:32.890 --> 01:04:37.789
+This is something only Google
+can do, and we are constantly
+
+01:04:37.789 --> 01:04:39.799
+improving it. And as search
+gets
+
+01:04:39.799 --> 01:04:45.359
+better, Google Home also gets
+better.
+
+01:04:45.359 --> 01:04:49.049
+understanding of local and
+traffic information, so now you
+
+01:04:49.049 --> 01:04:52.369
+and schedule. So let's say I'm
+planning a backpacking trip to
+
+01:04:52.369 --> 01:04:54.640
+Costa Rica and I need to get
+some camping gear.
+
+01:04:54.640 --> 01:04:57.329
+W e l l, I can
+ask Google home for some OK
+
+01:04:57.329 --> 01:04:58.569
+Google, what are some nearby
+help.
+
+01:04:58.569 --> 01:04:59.660
+OK Google, what are some nearby
+
+01:04:59.660 --> 01:05:05.089
+camping stores? I found a few
+places within 8.6 miles. The
+
+01:05:05.089 --> 01:05:08.000
+first run is the north face on
+post street in San Francisco.
+
+01:05:08.000 --> 01:05:11.450
+The second one is Marmud on
+post street in San Francisco.
+
+01:05:11.450 --> 01:05:15.050
+The third one is REI other than
+Brandon street in San OK
+
+01:05:15.050 --> 01:05:18.000
+Google, how's the trafficF
+rancisco.
+
+01:05:18.000 --> 01:05:25.000
+OK Google, how's the traffic
+looking
+
+01:05:25.000 --> 01:05:28.000
+to REI?
+
+01:05:28.000 --> 01:05:33.569
+OK Google, how
+long will it take to bike
+
+01:05:33.569 --> 01:05:34.569
+there?
+
+01:05:34.569 --> 01:05:36.190
+B
+iking to R EI will take you 24
+
+01:05:36.190 --> 01:05:37.950
+minutes. I think I will bike
+
+01:05:37.950 --> 01:05:40.300
+This is all built on years of
+there.
+
+01:05:40.300 --> 01:05:44.039
+This is all built on years of
+investment in Google Maps. And
+
+01:05:44.039 --> 01:05:45.170
+over time, we will make it easy
+
+01:05:45.170 --> 01:05:46.371
+to send the directions right to
+
+01:05:46.371 --> 01:05:47.480
+your phone so you can just pick
+
+01:05:47.480 --> 01:05:51.450
+up where you left off. And of
+course, Google can teach me the
+
+01:05:51.450 --> 01:05:53.780
+most important thing as I
+prepare for my trip to Costa
+
+01:05:53.780 --> 01:05:56.940
+Rica.
+OK Google, how do I say I would
+
+01:05:56.940 --> 01:06:07.650
+lot and I'm not sure I can say
+it the same way. Your Google
+
+01:06:07.650 --> 01:06:10.609
+Assistant is there to help you
+when you need it. Finally, you
+
+01:06:10.609 --> 01:06:11.609
+have an assistant that can
+bring
+
+01:06:11.609 --> 01:06:13.320
+the knowledge of Google, just
+by
+
+01:06:13.320 --> 01:06:15.130
+asking for it.
+
+01:06:15.130 --> 01:06:17.869
+Third, Google
+Home helps you manage everyday
+
+01:06:17.869 --> 01:06:21.360
+tasks.
+Home is where we love to relax,
+
+01:06:21.360 --> 01:06:23.760
+done. We want Google Home to be
+
+01:06:23.760 --> 01:06:24.760
+able to help you stay on top of
+
+01:06:24.760 --> 01:06:26.559
+your busy schedule.
+
+01:06:26.559 --> 01:06:28.339
+So we
+designed a feature called "My
+
+01:06:28.339 --> 01:06:30.530
+Day" that, with your
+permission, summarizes
+
+01:06:30.530 --> 01:06:32.369
+important topics and activities
+
+01:06:32.369 --> 01:06:36.290
+for you in a simple way. It's
+great to try with your morning
+
+01:06:36.290 --> 01:06:37.290
+coffee.
+
+01:06:37.290 --> 01:06:41.359
+L e t
+m e show OK Google, good
+
+01:06:41.359 --> 01:06:42.359
+morning.
+you.
+
+01:06:42.359 --> 01:06:45.140
+OK Google, good morning.Good
+morning. It is 7:32AM. The
+
+01:06:45.140 --> 01:06:48.549
+weather in San Francisco is
+currently 59-degrees and cloudy
+
+01:06:48.549 --> 01:06:51.750
+with a high of 65-degrees.
+Your commute to work is
+
+01:06:51.750 --> 01:06:54.490
+currently 59 minutes with
+moderate traffic if you take
+
+01:06:54.490 --> 01:06:59.010
+U.
+S.101 south. Today at 5:00 p.
+
+01:06:59.010 --> 01:07:05.869
+m. you have Bally wood hip-hop
+dance class. Have a good If
+
+01:07:05.869 --> 01:07:09.230
+you the President can get aone.
+If you the President can get a
+
+01:07:09.230 --> 01:07:15.609
+you? Now you can your plan day
+without skipping a beat. Google
+
+01:07:15.609 --> 01:07:18.059
+Home also excels at assisting
+you with common tasks in the
+
+01:07:18.059 --> 01:07:19.859
+home. For example, when
+planning
+
+01:07:19.859 --> 01:07:22.829
+your dinner, you can easily add
+things to your shopping lists,
+
+01:07:22.829 --> 01:07:25.480
+get nutrition information on
+ingredients, and set up
+
+01:07:25.480 --> 01:07:27.770
+multiple
+timers to manage your cooking
+
+01:07:27.770 --> 01:07:31.450
+times. All with your voice. OK
+Google, can you add kids
+
+01:07:31.450 --> 01:07:32.990
+vitamins to my shopping list?
+
+01:07:32.990 --> 01:07:35.160
+O k
+ay. I have added kids'
+
+01:07:35.160 --> 01:07:37.140
+vitamins to your shopping And
+now when you are at thelist.
+
+01:07:37.140 --> 01:07:39.280
+And now when you are at the
+grocery store, you can just
+
+01:07:39.280 --> 01:07:41.070
+pick
+up your Pixel and quickly
+
+01:07:41.070 --> 01:07:42.530
+access
+the shopping list.
+
+01:07:42.530 --> 01:07:47.170
+"OK Google,
+show me my shopping list?"H ere
+
+01:07:47.170 --> 01:07:49.800
+your
+go.
+
+01:07:49.800 --> 01:07:54.380
+It's one assistant across your
+devices.
+
+01:07:54.380 --> 01:07:56.250
+everyday
+tasks goes beyond just the
+
+01:07:56.250 --> 01:07:59.730
+kitchen. We want to help you in
+all aspect of your home life.
+
+01:07:59.730 --> 01:08:02.710
+For example, Google Home can
+even be the ultimate arbitrator
+
+01:08:02.710 --> 01:08:04.750
+between those family debates.
+OK
+
+01:08:04.750 --> 01:08:07.740
+Google, flip a coin?
+
+01:08:07.740 --> 01:08:10.900
+Okay. It's
+
+01:08:10.900 --> 01:08:15.490
+tails.
+We want to go beyond what only
+
+01:08:15.490 --> 01:08:16.490
+use your voice to also interact
+
+01:08:16.490 --> 01:08:19.411
+with your favorite apps and
+services. We'll have more to
+
+01:08:19.411 --> 01:08:22.429
+share about how partners can
+integrate with the Google
+
+01:08:22.429 --> 01:08:24.890
+Assistant later today.
+
+01:08:24.890 --> 01:08:27.520
+Four,
+Google Home helps you control
+
+01:08:27.520 --> 01:08:29.509
+devices at home.
+
+01:08:29.509 --> 01:08:31.520
+As homes get
+more connected, we think voice
+
+01:08:31.520 --> 01:08:35.561
+is going to be standard way to
+control your home devices. It's
+
+01:08:35.561 --> 01:08:39.880
+just really easy. So for those
+with smart home devices, we
+
+01:08:39.880 --> 01:08:41.400
+have
+partnered with Nest,
+
+01:08:41.400 --> 01:08:43.240
+SmartThings, Philips Hue,
+
+01:08:43.240 --> 01:08:45.390
+and
+IFTTT to voice enable your
+
+01:08:45.390 --> 01:08:48.799
+lights, switches, and
+thermostats. You can control
+
+01:08:48.799 --> 01:08:52.759
+individual devices, rooms, or
+your entire home. And we will
+
+01:08:52.759 --> 01:08:53.759
+be
+constantly adding more device
+
+01:08:53.759 --> 01:08:56.310
+partners over time.
+
+01:08:56.310 --> 01:08:58.460
+We want to
+support as many smart home
+
+01:08:58.460 --> 01:09:01.940
+devices as possible.
+Fortunately, if you are one of
+
+01:09:01.940 --> 01:09:04.080
+the 30M people who have
+purchased a Chromecast or
+
+01:09:04.080 --> 01:09:08.009
+Chromecast Audio, you can now
+use Google Home to control your
