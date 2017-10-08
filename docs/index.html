@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>H-AI-lights</title>
+</head>
+
+<body>
+    <section class="title">
+        <h1>
+            Create stunning highlight reels on the fly.
+            <br>It's fuckin magic.
+        </h1>
+        <h2>
+            Using Google Cloud's Sentiment and Video APIs to detect the best moments of live events and create highlights automagically.
+        </h2>
+         <video></video>
+    </section>
+    <div class="sample">
+        <h1>Check out some samples!</h1>
+        <h2 class="vid">Google's Pixel Event: 1 hr 7 minutes to 22 minutes.</h2>
+
+        <iframe width="480" height="360"
+            src="https://www.youtube.com/embed/q4y0KOeXViI">
+        </iframe>
+        <iframe src="https://drive.google.com/file/d/0B0X7tDPEUTWqaE00ZzBHV0V1ZlU/preview" width="480" height="360">
+        </iframe>
+        
+        <h2 class="vid">Innovating to Zero! | Bill Gates: 29 minutes to 8 minutes.</h2>
+        <iframe width="480" height="360"
+            src="https://www.youtube.com/embed/JaF-fq2Zn7I">
+        </iframe>
+        <iframe src="https://drive.google.com/file/d/0B0X7tDPEUTWqTXg4R1dSMV9fMTQ/preview" width="480" height="360">
+        </iframe>        
+    </div>
+    <section class="title content">
+            <h1 class="c-head">What's under the hood</h1>
+            <ul>
+                <li>
+                    Sentiment Analysis: What's being said? What's being said that's interesting, important?
+                </li>
+                <li>
+                    Cloud Video Intelligence: How is the scene changing? When do we see something new, different?
+                </li>
+                <li>
+                    Audio Analytics: What gets the crowd going? When do we hear applause, laughter?
+                </li>
+                <li>
+                    (TODO) Realtime Response: When do the comments go crazy? What keywords trended on Twitter? 
+                </li>
+            </ul>
+            <h1 class="c-head">What's on top</h1>
+            <ul>
+                <li>
+                    YouTube Scraping: Mapping closed captions for rapid speech to text.
+                </li>
+                <li>
+                    Parameter Optimization: Ability to tune the extent of highlights by adjusting block sizes, sentiment threshold and confidence intervals.
+                </li>
+                <li>
+                    Synchronization: Blending audio sentiment and video intelligence results to create a smooth, wholesome scene. 
+                </li>
+                <li>
+                    A/V: PHP scripting with ffmpeg to cut and combine your highlight reel.
+                </li>
+            </ul>
+            <h1 class="c-head">Call our API</h1>
+                <ul>
+                    <li>
+                        <a target="_blank" href="http://localhost:5000">Audio Scrape</a>
+                    </li>
+                    <li>
+                        <a target="_blank"  href="http://localhost:5000/sentiment">Sentiment Results</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://localhost:5000/shot">Video Intelligence Results</a>...  This can take ~ 1/4th the run-time of the original video
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://localhost:5000/intervals">Final, Blended Result</a>
+                    </li>
+                </ul>
+    </section>
+    <section class="title foot">
+        Built with NodeJS, PHP and ♥️ at Cal Hacks 4.0 
+    </section>
+</body>
+
+</html>

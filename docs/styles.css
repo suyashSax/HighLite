@@ -1,0 +1,84 @@
+body{
+	font-family: "Helvetica Neue";
+	width: 100%;
+	height: 100%;
+/*    min-height: 100%;*/
+	font-size: 24px;
+}
+
+.title{
+/*    text-align: center;*/
+    background-color: #5275e0;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    padding: 10% 25% 2% 25%;
+}
+
+h1{
+    font-weight: 500;
+}
+
+h2{
+    font-size: 0.95em;
+    font-weight: 300;
+}
+
+.loading{
+    background-color: #333;
+    width: 100%;
+    height: 500px;
+    color: white;
+    padding-top: 50px;
+    font-size: 25px;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.content{
+    background-color: #333;
+    height: 500px;
+    color: white;
+    font-size: 0.9em;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    height: 75%;
+}
+
+
+.sample{
+    background-color: #333;
+/*    height: 500px;*/
+    padding-top: 3%;
+    padding-left: 15%;
+    background-color: white;
+    font-size: 0.6em;
+    padding-bottom: 5%;
+}
+
+.vid{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.c-head{
+    font-weight: 500;
+}
+
+.foot{
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    text-shadow: none;
+}
+
+li{
+    font-size: 0.95em;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+a{
+    color: white;
+}
